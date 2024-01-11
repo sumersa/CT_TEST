@@ -1,0 +1,10 @@
+
+.widget .header h1,.widget .header h3 {
+    margin: 3px 0 3px 3px;
+    font-size: .875rem;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 5px;
+    background-color: red;
+}
