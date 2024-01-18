@@ -33,8 +33,9 @@ border-radius: 50%;
     border: 2px solid red;
     text-align: center;
     color: red;
-	float: left;
-    background-color:#F5CCCC
+    float: left;
+    background-color:#F5CCCC;
+    display: inline-block;
   }
 
 
