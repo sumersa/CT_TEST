@@ -24,3 +24,19 @@
     padding: 60px 10px 10px 10px;
     text-align: center !important;
 }
+
+#quiz-v2 .error:before {
+content:'!';
+border-radius: 50%;
+    height: 20px;
+    width:10px;
+    border: 2px solid red;
+    text-align: center;
+    color: red;
+	float: left;
+    background-color:#F5CCCC
+  }
+
+
+
+
