@@ -37,6 +37,13 @@ border-radius: 50%;
     display: inline-block;
   }
 
+#quiz-v2 .error {
+    color: #a20114;
+    font-size: .6875rem;
+    font-weight: 700;
+    margin: 5px 0;
+    background-color: #F5CCCC !important;
+}
 
 
 
