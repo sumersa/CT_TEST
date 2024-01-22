@@ -70,6 +70,12 @@ border-radius: 50%;
     display:none;
 }
 
+#poll-v2 .submit-container button {
+    display: inline-block;
+    background-color: #154734;
+    color: rgb(255, 255, 255);
+    border-color: #154734;
+}
 
 
 
