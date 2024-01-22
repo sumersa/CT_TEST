@@ -6,7 +6,7 @@
     text-transform: uppercase;
     color: #fff;
     padding: 5px;
-    background-color: blue !important
+    display:none !important;
 }
 .widget .header {
     display: none !important;
@@ -44,6 +44,35 @@ border-radius: 50%;
     margin: 5px 0;
     background-color: #F5CCCC !important;
 }
+
+
+
+#poll-v2 .submit-container { 
+ display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#poll-v2 .submit-container .points {
+    display:none;
+    margin: 0 20px;
+    vertical-align: middle;
+}
+
+.widget .header {
+    display: block;
+    padding: 5px;
+    background-color: #4a90e2;
+    border-bottom: 1px solid #000;
+    width: 100%;
+    -webkit-transform: translate3d(0,0,0);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    display:none;
+}
+
 
 
 
