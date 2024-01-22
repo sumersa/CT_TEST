@@ -45,9 +45,8 @@ border-radius: 50%;
     background-color: #F5CCCC !important;
 }
 
-
-
 #poll-v2 .submit-container { 
+    display: contents !important;
 }
 
 #poll-v2 .submit-container .points {
