@@ -48,9 +48,6 @@ border-radius: 50%;
 
 
 #poll-v2 .submit-container { 
- display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 #poll-v2 .submit-container .points {
