@@ -97,7 +97,7 @@ border-radius: 100%;
    line-height: 2.1ex;
 }
 
-#quiz-v2 .answer-options input[type="radio"],
+
 #quiz-v2 .answer-options input[type="checkbox"] {
     position: absolute;
     left: -999em;
