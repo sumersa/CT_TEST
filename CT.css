@@ -24,13 +24,14 @@
 
 #quiz-v2 .error:before {
 content:'!';
-border-radius: 50%;
+border-radius: 100%;
+    font-size: 20px;
     height: 20px;
     width:10px;
     border: 2px solid red;
     text-align: center;
-    color: red;
-    background-color:#F5CCCC;
+    color: #F5CCCC;
+    background-color: red;
     display: inline-block;
   }
 
