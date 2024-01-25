@@ -194,3 +194,13 @@ border-radius: 50%;
    margin-right: 0.5em;
 }
 
+
+@media only screen and (max-width: 767px) {
+                #poll-v2 .submit-container button {
+    display: inline-block;
+    width: 100%;
+    background-color: #154734;
+    color: rgb(255, 255, 255);
+    border-color: #154734;
+}
+            }
