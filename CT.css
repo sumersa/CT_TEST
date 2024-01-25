@@ -125,11 +125,14 @@ border-radius: 100%;
 
 #quiz-v2 .question-container .image-wrapper {
     /* display: inline-flex; */
+     display: block;
     vertical-align: middle;
     margin: 0 10px 0 5px;
     height: 150px;
     width: 150px;
 }
+
+
 #quiz-v2 .points-header .points {
     font-weight: 700;
     display:none;
