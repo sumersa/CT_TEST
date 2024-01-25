@@ -24,15 +24,17 @@
 
 #quiz-v2 .error:before {
 content:'!';
-border-radius: 100%;
+border-radius: 50%;
     font-size: 20px;
     height: 20px;
-    width:10px;
+    width:20px;
     border: 2px solid red;
     text-align: center;
     color: #F5CCCC;
     background-color: red;
     display: inline-block;
+   margin:5px;
+   
   }
 
 #quiz-v2 .error {
