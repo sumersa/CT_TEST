@@ -111,7 +111,8 @@ border-radius: 100%;
 
 #quiz-v2 .answer-options input[type="checkbox"] + label::before {
    content: "";
-   display: inline-block;
+   display: inline-flex;
+    text-align:center;
    vertical-align: -25%;
    height: 2ex;
    width: 2ex;
