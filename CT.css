@@ -195,14 +195,14 @@ border-radius: 50%;
 }
 
 
-#survey-v3 .answer-options input[type="radio"]:checked + label::after {
+#survey-v3 .answer-options input[type="radio"]:checked + span::after {
    content: '';
    position: absolute;
-   width: 6px;
-   height: 6px;
+   width: 7px;
+   height: 7px;
    background: rgba(0, 0, 0, 0);
-   top: 1.1ex;
-   left: 1.9ex;
+   top: 0.5ex;
+   left: 1.0ex;
    background-color:white;
    border-radius:50%;
    display:flex;
@@ -220,13 +220,13 @@ border-radius: 50%;
     left: -999em;
 }
 
-#survey-v3 .answer-options input[type="radio"] + label {
+#survey-v3 .answer-options input[type="radio"] + span {
     position: relative;
     overflow: hidden;
     cursor: pointer;
 }
 
-#survey-v3 .answer-options input[type="radio"] + label::before {
+#survey-v3 .answer-options input[type="radio"] + span::before {
    content: "";
    display: inline-flex;
     text-align: center;
