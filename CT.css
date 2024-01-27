@@ -291,6 +291,29 @@ border-radius: 50%;
    margin-right: 0.5em;
 }
 
+#survey-v3 .error:before {
+content:'!';
+border-radius: 50%;
+    font-size: 20px;
+    height: 20px;
+    width:20px;
+    border: 2px solid red;
+    text-align: center;
+    color: #F5CCCC;
+    background-color: red;
+    display: inline-block;
+   margin:5px;
+   
+  }
+
+#survey-v3 .error {
+    color: #a20114;
+    font-size: .6875rem;
+    font-weight: 700;
+    margin: 5px 0;
+    background-color: #F5CCCC !important;
+}
+
 
 
 
