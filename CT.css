@@ -241,7 +241,8 @@ border-radius: 50%;
 }
 
 
-#survey-v3 .answer-options input[type="checkbox"]:checked + label::after {
+
+#survey-v3 .answer-options input[type="checkbox"]:checked + span::after {
    content: '';
    display:flex;
    align-items:center;
@@ -249,9 +250,9 @@ border-radius: 50%;
    width: 0.9em;
    height: 0.3em;
    background: rgba(0, 0, 0, 0);
-   top: 40%;
-   left: 9px;
-   border: 3px solid white;
+   top: 29%;
+   left: 5px;
+   border: 2px solid white;
    border-top: none;
    border-right: none;
    -webkit-transform: rotate(-45deg);
@@ -267,17 +268,17 @@ border-radius: 50%;
 
 
 #survey-v3 .answer-options input[type="checkbox"] {
-    position: absolute;
+     position: absolute; 
     left: -999em;
 }
 
-#survey-v3 .answer-options input[type="checkbox"] + label {
+#survey-v3 .answer-options input[type="checkbox"] + span {
     position: relative;
     /* overflow: hidden; */
     cursor: pointer;
 }
 
-#survey-v3 .answer-options input[type="checkbox"] + label::before {
+#survey-v3 .answer-options input[type="checkbox"] + span::before {
    content: "";
    display: inline-flex;
     text-align: center;
@@ -289,6 +290,8 @@ border-radius: 50%;
    border-radius: 0px;   
    margin-right: 0.5em;
 }
+
+
 
 
 
