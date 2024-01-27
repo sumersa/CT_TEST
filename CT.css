@@ -195,6 +195,104 @@ border-radius: 50%;
 }
 
 
+#survey-v3 .answer-options input[type="radio"]:checked + label::after {
+   content: '';
+   position: absolute;
+   width: 6px;
+   height: 6px;
+   background: rgba(0, 0, 0, 0);
+   top: 1.1ex;
+   left: 1.9ex;
+   background-color:white;
+   border-radius:50%;
+   display:flex;
+   align-items:center;
+  
+}
+
+#survey-v3 .answer-options input[type="radio"] {
+   line-height: 2.1ex;
+}
+
+
+#survey-v3 .answer-options input[type="radio"] {
+    position: absolute;
+    left: -999em;
+}
+
+#survey-v3 .answer-options input[type="radio"] + label {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+#survey-v3 .answer-options input[type="radio"] + label::before {
+   content: "";
+   display: inline-flex;
+    text-align: center;
+   vertical-align: -25%;
+   height: 1.5em;
+   width: 1.5em;
+   background-color: #154734;
+   border: 1px solid rgb(166, 166, 166);
+   border-radius: 50%;
+   box-shadow: inset 0 2px 5px rgba(0,0,0,0.25);
+   margin-right: 0.5em;
+}
+
+
+#survey-v3 .answer-options input[type="checkbox"]:checked + label::after {
+   content: '';
+   display:flex;
+   align-items:center;
+   position: absolute;
+   width: 0.9em;
+   height: 0.3em;
+   background: rgba(0, 0, 0, 0);
+   top: 40%;
+   left: 9px;
+   border: 3px solid white;
+   border-top: none;
+   border-right: none;
+   -webkit-transform: rotate(-45deg);
+   -moz-transform: rotate(-45deg);
+   -o-transform: rotate(-45deg);
+   -ms-transform: rotate(-45deg);
+   transform: rotate(-45deg);
+}
+
+#survey-v3 .answer-options input[type="checkbox"] {
+   line-height: 2.1ex;
+}
+
+
+#survey-v3 .answer-options input[type="checkbox"] {
+    position: absolute;
+    left: -999em;
+}
+
+#survey-v3 .answer-options input[type="checkbox"] + label {
+    position: relative;
+    /* overflow: hidden; */
+    cursor: pointer;
+}
+
+#survey-v3 .answer-options input[type="checkbox"] + label::before {
+   content: "";
+   display: inline-flex;
+    text-align: center;
+   vertical-align: -25%;
+   height: 1.5em;
+   width: 1.5em;
+   background-color: #154734;
+   border: 1px solid rgb(166, 166, 166);
+   border-radius: 0px;   
+   margin-right: 0.5em;
+}
+
+
+
+
 @media only screen and (max-width: 767px) {
                 #poll-v2 .submit-container button {
     display: inline-block;
