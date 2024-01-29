@@ -315,6 +315,26 @@ border-radius: 50%;
 }
 
 
+#quiz-v2 .progress {
+    background: #efefef;
+    border-radius: 999px;
+    height: 8px;
+    margin: 0 20px;
+    display: none !important;
+}
+#quiz-v2 .buttons {
+    align-items: center;
+    display: flex;
+    margin-top: 30px;
+    float: right !important;
+}
+
+
+.ct-series-d .ct-bar, .ct-series-d .ct-line, .ct-series-d .ct-point, .ct-series-d .ct-slice-donut {
+    stroke: #154734 !important;
+}
+
+
 
 
 
