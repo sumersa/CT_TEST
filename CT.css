@@ -269,7 +269,7 @@ border-radius: 50%;
 
 #survey-v3 .answer-options input[type="checkbox"] {
      position: absolute; 
-    left: -999em;
+  /*  left: -999em; */
 }
 
 #survey-v3 .answer-options input[type="checkbox"] {
