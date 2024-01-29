@@ -334,6 +334,14 @@ border-radius: 50%;
     stroke: #154734 !important;
 }
 
+
+.ct-series-c .ct-bar, .ct-series-c .ct-line, .ct-series-c .ct-point, .ct-series-c .ct-slice-donut {
+    stroke: #154734 !important;
+}
+
+
+
+
 .widget .header {
     display: block;
     padding: 5px;
