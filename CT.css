@@ -418,6 +418,21 @@ border-radius: 50%;
 }
 
 
+#quiz-v2 .buttons__left, #quiz-v2 .buttons__right {
+    display: flex;
+    margin: 0 0 0 8px;
+    border-color: #154537;
+    border: 2px solid #154537;
+    background: white;
+    /* color: #154537; */
+}
+
+
+.btn:disabled, a.btn:disabled {
+    opacity: 1;
+    cursor: default;
+}
+
 
 @media only screen and (max-width: 767px) {
                 #poll-v2 .submit-container button {
