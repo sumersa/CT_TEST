@@ -242,7 +242,7 @@ border-radius: 50%;
 
 
 
-#survey-v3 .answer-options input[type="checkbox"]:checked + span::after {
+#survey-v3 .answer-options input[type="checkbox"]:checked::after {
    content: '';
    display:flex;
    align-items:center;
@@ -272,13 +272,13 @@ border-radius: 50%;
     left: -999em;
 }
 
-#survey-v3 .answer-options input[type="checkbox"] + span {
+#survey-v3 .answer-options input[type="checkbox"] {
     position: relative;
     /* overflow: hidden; */
     cursor: pointer;
 }
 
-#survey-v3 .answer-options input[type="checkbox"] + span::before {
+#survey-v3 .answer-options input[type="checkbox"]::before {
    content: "";
    display: inline-flex;
     text-align: center;
