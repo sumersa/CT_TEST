@@ -334,7 +334,35 @@ border-radius: 50%;
     stroke: #154734 !important;
 }
 
+.widget .header {
+    display: block;
+    padding: 5px;
+    background-color: #4a90e2;
+    border-bottom: 1px solid #000;
+    width: 100%;
+    -webkit-transform: translate3d(0,0,0);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    display: none !important;
+}
 
+
+
+.widget .header h1, .widget .header h3 {
+    margin: 3px 0 3px 3px;
+    font-size: .875rem;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 5px;
+    display: none !important;
+}
+
+.widget .container {
+    padding: 0px 10px 10px 10px !important;
+}
 
 
 
