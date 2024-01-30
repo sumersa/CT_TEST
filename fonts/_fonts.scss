@@ -1,14 +1,14 @@
 // Atten New Fonts
 @font-face {
   font-family: "Atten";
-  src: url("/fonts/Atten_New/Atten-New-Regular.woff")
+  src: url("./fonts/Atten_New/Atten-New-Regular.woff")
       format("woff");
   font-display: swap;
 }
 
 @font-face {
   font-family: "Atten";
-  src: url("/fonts/Atten_New/Atten-New-Medium.woff")
+  src: url("./fonts/Atten_New/Atten-New-Medium.woff")
       format("woff");
   font-weight: 500;
   font-display: swap;
@@ -16,7 +16,7 @@
 
 @font-face {
   font-family: "Atten";
-  src: url("/fonts/Atten_New/Atten-New-Extra-Bold.woff")
+  src: url("../fonts/Atten_New/Atten-New-Extra-Bold.woff")
       format("woff");
   font-weight: 800;
   font-display: swap;
