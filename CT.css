@@ -503,7 +503,89 @@ border-radius: 50%;
    
 }
 
+/* Fonts */
 
+
+/* Poll */
+
+#poll-v2 .description {
+    margin-bottom: 10px;
+   font-family: var(--font-sans);
+    font-weight: 800 !important;
+    font-size: 14px;
+}
+
+#poll-v2 .question-container .question-text {
+    font-size: 13px;
+       font-weight: 800 !important;
+    margin-top: 10px;
+  font-family: var(--font-sans);
+}
+
+
+
+#poll-v2 .question-type-radio label.answer-option-wrapper input[type="radio"] + span {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+	 font-family: var(--font-sans);
+	 font-weight: 500 !important;
+}
+
+
+
+/* Quiz */
+
+
+
+#quiz-v2 .answer-options input[type="checkbox"] + label {
+    position: relative;
+    /* overflow: hidden; */
+    cursor: pointer;
+	font-family: var(--font-sans);
+	 font-weight: 500 !important;
+}
+
+
+#quiz-v2 .question-container .directions {
+    font-weight: 400;
+    font-size: .8125rem;
+	font-family: var(--font-sans);
+}
+
+#quiz-v2 .question-container .question-text {
+    font-size: 13px;
+    font-weight: 700;
+	font-family: var(--font-sans);
+}
+
+/* Survey */
+
+#survey-v3 .description {
+    margin: 0;
+	font-size: 14px;
+	font-family: var(--font-sans);
+    font-weight: 800 !important;
+    font-size: 14px;
+}
+
+#survey-v3 .question-container .question-text {
+    font-size: 13px;
+    font-weight: 700;
+    margin-top: 30px;
+	font-family: var(--font-sans);
+}
+
+
+#survey-v3 .question-container .directions {
+    font-weight: 400;
+	font-family: var(--font-sans);
+}
+
+#survey-v3 .answer-options .answer-option-text {
+    vertical-align: middle;
+	font-family: var(--font-sans);
+}
 
 
 @media only screen and (max-width: 767px) {
