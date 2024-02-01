@@ -392,14 +392,17 @@ border-radius: 50%;
 
 
 .ct-series-d .ct-bar, .ct-series-d .ct-line, .ct-series-d .ct-point, .ct-series-d .ct-slice-donut {
-    stroke: #154734 !important;
+    stroke: #014A2B !important;
 }
 
 
 .ct-series-c .ct-bar, .ct-series-c .ct-line, .ct-series-c .ct-point, .ct-series-c .ct-slice-donut {
-    stroke: #154734 !important;
+    stroke: #014A2B !important;
 }
 
+.ct-series-a .ct-bar,.ct-series-a .ct-line,.ct-series-a .ct-point,.ct-series-a .ct-slice-donut {
+    stroke: #014A2B !important;
+}
 
 
 
@@ -478,6 +481,14 @@ border-radius: 50%;
    margin-right: 0.5em;
 }
 
+#poll-v2 .question-type-radio label.answer-option-wrapper input[type="radio"]:checked + span {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    font-family: var(--font-sans);
+    font-weight: 500 !important;
+    color: #fff !important;
+}
 
 #quiz-v2 .buttons__left, #quiz-v2 .buttons__right {
     display: flex;
