@@ -615,14 +615,33 @@ border-radius: 50%;
     display:none !important;
 }
 
-
-
 #quiz-v2 .buttons__left button , #quiz-v2 .buttons__right button
 {
 
    background-color:red !important;
    color:white !important;
   
+}
+
+#quiz-v2 .buttons__left button , #quiz-v2 .buttons__right button
+{
+
+   background-color:#fff !important;
+   color:#154537 !important;
+   width:100px;
+   border:0px !important; 
+   
+  
+}
+
+
+#quiz-v2 .buttons__left button:hover , #quiz-v2 .buttons__right button:hover
+{
+
+background-color:#154537 !important;
+color:#fff !important;
+width:100px;
+border:0px !important;
 }
 
 
