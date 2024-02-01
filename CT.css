@@ -617,5 +617,13 @@ border-radius: 50%;
 
 
 
+#quiz-v2 .buttons__left button , #quiz-v2 .buttons__right button
+{
+
+   background-color:red !important;
+   color:white !important;
+  
+}
+
 
 
