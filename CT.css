@@ -547,8 +547,14 @@ border-radius: 50%;
     cursor: pointer;
 	 font-family: var(--font-sans);
 	 font-weight: 500 !important;
+	border: 1px solid #154537;
 }
 
+/* aligning poll answers in center*/
+.answer-container span {
+display:flex !important;
+justify-content:center !important;
+}
 
 
 /* Quiz */
