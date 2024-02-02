@@ -1,0 +1,65 @@
+#poll-v2 .question-type-radio label.answer-option-wrapper input[type="radio"]:checked + span::after {
+   content: '';
+    position: absolute;
+    background: rgba(0, 0, 0, 0);
+    background-color: #154537;
+    border-radius: 0;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 3rem;
+    z-index: -1;
+}
+
+#poll-v2 .question-type-radio label.answer-option-wrapper input[type="radio"] {
+   line-height: 2.1ex;
+}
+
+
+#poll-v2 .question-type-radio label.answer-option-wrapper input[type="radio"] {
+    position: absolute;
+    left: -999em;
+}
+
+#poll-v2 .question-type-radio label.answer-option-wrapper input[type="radio"] + span {
+   position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    width: 10rem;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    font-weight: 800;
+    font-size: 16px;
+}
+
+#poll-v2 .question-type-radio label.answer-option-wrapper input[type="radio"] + span::before {
+  content: "";
+    display: inline-flex;
+    text-align: center;
+    height: 3rem;
+    width: 100%;
+    background-color: #ffffff;
+    border-radius: 0;
+    box-shadow: none;
+    color: #000;
+    position: absolute;
+    z-index: -1;
+}
+
+#poll-v2 .question-type-radio label.answer-option-wrapper input[type="radio"]:checked + span {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    font-family: var(--font-sans);
+    font-weight: 500 !important;
+    color: #fff !important;
+}
+
+/* aligning poll answers in center*/
+.answer-container span {
+display:flex !important;
+justify-content:center !important;
+}
