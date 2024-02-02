@@ -58,6 +58,9 @@
     color: #fff !important;
 }
 
+#poll-v2 .submit-container .points {
+    display:none !important;
+   }
 /* aligning poll answers in center*/
 .answer-container span {
 display:flex !important;
