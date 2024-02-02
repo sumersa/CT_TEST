@@ -150,8 +150,7 @@
     overflow: hidden;
     cursor: pointer;
     font-family: var(--font-sans);
-    font-weight: 500 !important;
-    color: #fff !important;
+    font-weight: 500 !important;   
 }
 
 
