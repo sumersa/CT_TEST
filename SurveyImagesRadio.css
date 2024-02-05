@@ -38,3 +38,55 @@
    align-items:center;
 }
 
+
+
+#survey-v3 .answer-options input[type="checkbox"]:checked::after {
+   content: '';
+   display:flex;
+   align-items:center;
+   position: absolute;
+   width: 0.9em;
+   height: 0.3em;
+   background: rgba(0, 0, 0, 0);
+   top: 29%;
+   left: 5px;
+   border: 2px solid #154537;
+   border-top: none;
+   border-right: none;
+   -webkit-transform: rotate(-45deg);
+   -moz-transform: rotate(-45deg);
+   -o-transform: rotate(-45deg);
+   -ms-transform: rotate(-45deg);
+   transform: rotate(-45deg);
+}
+
+#survey-v3 .answer-options input[type="checkbox"] {
+   line-height: 2.1ex;
+}
+
+
+#survey-v3 .answer-options input[type="checkbox"] {
+     position: absolute; 
+  /*  left: -999em; */
+}
+
+#survey-v3 .answer-options input[type="checkbox"] {
+    position: relative;
+    /* overflow: hidden; */
+    cursor: pointer;
+}
+
+#survey-v3 .answer-options input[type="checkbox"]::before {
+   content: "";
+   display: inline-flex;
+    text-align: center;
+   vertical-align: -25%;
+   height: 1.5em;
+   width: 1.5em;
+background-color: white;;
+   border: 1px solid rgb(166, 166, 166);
+   border-radius: 0px;   
+   margin-right: 0.5em;
+}
+
+
