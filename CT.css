@@ -82,7 +82,13 @@
     z-index: 1000
 }
 
+#quiz-v2 p.description.ng-binding.ng-scope {
+    display:none !important;
+}
 
+#quiz-v2 hr {    
+    display:none !important;
+}
 #quiz-v2 .error:before {
 content:'!';
 border-radius: 50%;
