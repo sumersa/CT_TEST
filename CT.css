@@ -537,12 +537,19 @@ border-radius: 50%;
 
 
 /* Poll */
+#poll-v2 hr {
+    margin: 5px 0 5px 0;
+    border-top: 1px solid #000;
+	display:none !important;
+}
+
 
 #poll-v2 .description {
     margin-bottom: 10px;
    font-family: var(--font-sans);
     font-weight: 800 !important;
     font-size: 14px;
+    display:none !important;
 }
 
 #poll-v2 .question-container .question-text {
