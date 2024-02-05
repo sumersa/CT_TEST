@@ -101,6 +101,7 @@
     padding: 0px 10px 10px 10px !important;
 }
 
+/*
 #poll-v2 .question-type-radio label.answer-option-wrapper input[type="radio"]:checked + span::after {
    content: '';
    position: absolute;
@@ -151,8 +152,47 @@
     cursor: pointer;
     font-family: var(--font-sans);
     font-weight: 500 !important;   
-}
+} */
 
+
+#poll-v2 .answer-options input[type="radio"] {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  -webkit-appearance: none;
+   background-color:#fff;
+  -moz-appearance: none;
+  appearance: none;
+  border: 1px solid grey;
+  border-radius: 50%;
+  outline: none;
+}
+#poll-v2 .answer-options input[type="radio"]:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #fff;
+  
+}
+#poll-v2 .answer-options input[type="radio"]:checked:after {
+  content: '';
+   position: absolute;
+   width: 7px;
+   height: 7px;
+   background: rgba(0, 0, 0, 0);
+   top: 0.8ex;
+   left: 0.8ex;
+   background-color:#154;
+   border-radius:50%;
+   display:flex;
+   align-items:center;
+}
 
 #poll-v2 .question-container .question-text {
     font-size: 13px;
