@@ -1,0 +1,40 @@
+
+#survey-v3 .answer-options input[type="radio"] {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  -webkit-appearance: none;
+   background-color:#154537;
+  -moz-appearance: none;
+  appearance: none;
+  border: 1px solid #154;
+  border-radius: 50%;
+  outline: none;
+}
+#survey-v3 .answer-options input[type="radio"]:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #154537;
+  
+}
+#survey-v3 .answer-options input[type="radio"]:checked:after {
+  content: '';
+   position: absolute;
+   width: 7px;
+   height: 7px;
+   background: rgba(0, 0, 0, 0);
+   top: 0.8ex;
+   left: 0.8ex;
+   background-color:#fff;
+   border-radius:50%;
+   display:flex;
+   align-items:center;
+}
+
