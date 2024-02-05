@@ -451,15 +451,17 @@ border-radius: 50%;
 
 #poll-v2 .question-type-radio label.answer-option-wrapper input[type="radio"]:checked + span::after {
    content: '';
-    position: absolute;
-    background: rgba(0, 0, 0, 0);
-    background-color: #154537;
-    border-radius: 0;
-    display: flex;
-    align-items: center;
-    width: 100%;
-    height: 3rem;
-    z-index: -1;
+   position: absolute;
+   width: 6px;
+   height: 6px;
+   background: rgba(0, 0, 0, 0);
+   top: 0.5ex;
+   left: 1.1ex;
+   background-color:#154537;
+   border-radius:50%;
+   display:flex;
+   align-items:center;
+  
 }
 
 #poll-v2 .question-type-radio label.answer-option-wrapper input[type="radio"] {
@@ -473,40 +475,23 @@ border-radius: 50%;
 }
 
 #poll-v2 .question-type-radio label.answer-option-wrapper input[type="radio"] + span {
-   position: relative;
-    overflow: hidden;
-    cursor: pointer;
-    width: 10rem;
-    height: 3rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #000;
-    font-weight: 800;
-    font-size: 16px;
-}
-
-#poll-v2 .question-type-radio label.answer-option-wrapper input[type="radio"] + span::before {
-  content: "";
-    display: inline-flex;
-    text-align: center;
-    height: 3rem;
-    width: 100%;
-    background-color: #ffffff;
-    border-radius: 0;
-    box-shadow: none;
-    color: #000;
-    position: absolute;
-    z-index: -1;
-}
-
-#poll-v2 .question-type-radio label.answer-option-wrapper input[type="radio"]:checked + span {
     position: relative;
     overflow: hidden;
     cursor: pointer;
-    font-family: var(--font-sans);
-    font-weight: 500 !important;
-    color: #fff !important;
+}
+
+#poll-v2 .question-type-radio label.answer-option-wrapper input[type="radio"] + span::before {
+   content: "";
+   display: inline-flex;
+    text-align: center;
+   vertical-align: -25%;
+   height: 1.5em;
+   width: 1.5em;
+    background-color: #fff;
+   border: 1px solid rgb(166, 166, 166);
+   border-radius: 50%;
+   box-shadow: inset 0 2px 5px rgba(0,0,0,0.25);
+   margin-right: 0.5em;
 }
 
 #quiz-v2 .buttons__left, #quiz-v2 .buttons__right {
