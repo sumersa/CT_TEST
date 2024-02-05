@@ -1,0 +1,94 @@
+#quiz-v2 .answer-options input[type="radio"]:checked + label::after {
+   content: '';
+   position: absolute;
+   width: 8px;
+   height: 8px;
+   background: rgba(0, 0, 0, 0);
+   top: 5.3em;
+   left: 0.9em;
+   background-color: #154537;
+   border-radius:50%;
+   display:flex;
+   align-items:center;
+  
+}
+
+#quiz-v2 .answer-options input[type="radio"] {
+   line-height: 2.1ex;
+}
+
+
+#quiz-v2 .answer-options input[type="radio"] {
+    position: absolute;
+    left: -999em;
+}
+
+#quiz-v2 .answer-options input[type="radio"] + label {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+#quiz-v2 .answer-options input[type="radio"] + label::before {
+   content: "";
+   display: inline-flex;
+    text-align: center;
+   vertical-align: -25%;
+   height: 1.5em;
+   width: 1.5em;
+   background-color: #fff;
+   border: 1px solid rgb(166, 166, 166);
+   border-radius: 50%;
+     margin-right: 0.5em;
+}
+
+
+
+#quiz-v2 .answer-options input[type="checkbox"]:checked + label::after {
+   content: '';
+   display:flex;
+   align-items:center;
+   position: absolute;
+   width: 16.3px;
+   height: 7.6px;
+   background: rgba(0, 0, 0, 0);
+   top: 45%;
+   left: 6px;
+     border: 3px solid #154537;
+   border-top: none;
+   border-right: none;
+   -webkit-transform: rotate(-4deg);
+   -moz-transform: rotate(-4deg);
+   -o-transform: rotate(-4deg);
+   -ms-transform: rotate(-4deg);
+   transform: rotate(-49deg);
+}
+
+#quiz-v2 .answer-options input[type="checkbox"] {
+   line-height: 2.1ex;
+}
+
+
+#quiz-v2 .answer-options input[type="checkbox"] {
+    position: absolute;
+    left: -999em;
+}
+
+#quiz-v2 .answer-options input[type="checkbox"] + label {
+    position: relative;
+    /* overflow: hidden; */
+    cursor: pointer;
+}
+
+#quiz-v2 .answer-options input[type="checkbox"] + label::before {
+   content: "";
+   display: inline-flex;
+    text-align: center;
+   vertical-align: -25%;
+   height: 1.5em;
+   width: 1.5em;
+    background-color: #fff;
+   border: 1px solid rgb(166, 166, 166);
+   border-radius: 0px;   
+   margin-right: 0.5em;
+}
