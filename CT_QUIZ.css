@@ -1,0 +1,371 @@
+:root {
+    --color-shade-100: #fff;
+    --color-shade-200: #f8f8f8;
+    --color-shade-500: #c6c6c6;
+    --color-shade-800: #333;
+    --color-shade-900: #000;
+    --color-green-700: #014a2b;
+    --color-red-700: #880d27;
+    --font-sans: 'atten new', sans-serif;
+    --font-serif: 'Libre Caslon Text', serif;
+    --text-supporting: .875rem;
+    --text-paragraph: 1rem;
+    --height-header: 3.75rem;
+    --space-a: .3125rem;
+    --space-b: .625rem;
+    --space-c: 1.25rem;
+    --space-d: 1.875rem;
+    --radius-circle: 50%;
+    --radius-pill: 9999px;
+    --radius-tapbox: 2px;
+    --size-icon: 2.5rem;
+    --tile-overlay-hover: rgba(255, 255, 255, .07);
+    --tile-overlay-active: rgba(0, 0, 0, .15);
+    --timing-hues: .15s
+}
+
+@font-face{font-family:atten new;font-style:normal;font-weight:400;src:local('Atten New'),url(https://fonts.cdnfonts.com/s/36923/AttenNewRegular.woff) format('woff')}@font-face{font-family:atten new;font-style:italic;font-weight:400;src:local('Atten New'),url(https://fonts.cdnfonts.com/s/36923/AttenNewRegularItalic.woff) format('woff')}@font-face{font-family:atten new;font-style:normal;font-weight:300;src:local('Atten New'),url(https://fonts.cdnfonts.com/s/36923/AttenNewBook.woff) format('woff')}@font-face{font-family:atten new;font-style:italic;font-weight:300;src:local('Atten New'),url(https://fonts.cdnfonts.com/s/36923/AttenNewBookItalic.woff) format('woff')}@font-face{font-family:atten new;font-style:normal;font-weight:500;src:local('Atten New'),url(https://fonts.cdnfonts.com/s/36923/AttenNewMedium.woff) format('woff')}@font-face{font-family:atten new;font-style:italic;font-weight:500;src:local('Atten New'),url(https://fonts.cdnfonts.com/s/36923/AttenNewMediumItalic.woff) format('woff')}@font-face{font-family:atten new;font-style:normal;font-weight:700;src:local('Atten New'),url(https://fonts.cdnfonts.com/s/36923/AttenNewBold.woff) format('woff')}@font-face{font-family:atten new;font-style:italic;font-weight:700;src:local('Atten New'),url(https://fonts.cdnfonts.com/s/36923/AttenNewBoldItalic.woff) format('woff')}@font-face{font-family:atten new;font-style:normal;font-weight:800;src:local('Atten New'),url(https://fonts.cdnfonts.com/s/36923/AttenNewExtraBold.woff) format('woff')}@font-face{font-family:atten new;font-style:italic;font-weight:800;src:local('Atten New'),url(https://fonts.cdnfonts.com/s/36923/AttenNewExtraBoldItalic.woff) format('woff')}@font-face{font-family:atten round new;font-style:normal;font-weight:400;src:local('Atten Round New'),url(https://fonts.cdnfonts.com/s/36923/AttenRoundNewRegular.woff) format('woff')}@font-face{font-family:atten round new;font-style:italic;font-weight:400;src:local('Atten Round New'),url(https://fonts.cdnfonts.com/s/36923/AttenRoundNewRegularItalic.woff) format('woff')}@font-face{font-family:atten round new;font-style:normal;font-weight:300;src:local('Atten Round New'),url(https://fonts.cdnfonts.com/s/36923/AttenRoundNewBook.woff) format('woff')}@font-face{font-family:atten round new;font-style:italic;font-weight:300;src:local('Atten Round New'),url(https://fonts.cdnfonts.com/s/36923/AttenRoundNewBookItalic.woff) format('woff')}@font-face{font-family:atten round new;font-style:normal;font-weight:500;src:local('Atten Round New'),url(https://fonts.cdnfonts.com/s/36923/AttenRoundNewMedium.woff) format('woff')}@font-face{font-family:atten round new;font-style:italic;font-weight:500;src:local('Atten Round New'),url(https://fonts.cdnfonts.com/s/36923/AttenRoundNewMediumItalic.woff) format('woff')}@font-face{font-family:atten round new;font-style:normal;font-weight:700;src:local('Atten Round New'),url(https://fonts.cdnfonts.com/s/36923/AttenRoundNewBold.woff) format('woff')}@font-face{font-family:atten round new;font-style:italic;font-weight:700;src:local('Atten Round New'),url(https://fonts.cdnfonts.com/s/36923/AttenRoundNewBoldItalic.woff) format('woff')}@font-face{font-family:atten round new;font-style:normal;font-weight:800;src:local('Atten Round New'),url(https://fonts.cdnfonts.com/s/36923/AttenRoundNewExtraBold.woff) format('woff')}@font-face{font-family:atten round new;font-style:italic;font-weight:800;src:local('Atten Round New'),url(https://fonts.cdnfonts.com/s/36923/AttenRoundNewExtraBoldItalic.woff) format('woff')}
+
+
+@font-face {
+    font-family: 'Libre Caslon Text';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Libre Caslon Text'), url('https://fonts.cdnfonts.com/s/15804/LibreCaslonText-Regular.woff') format('woff');
+}
+@font-face {
+    font-family: 'Libre Caslon Text';
+    font-style: italic;
+    font-weight: 400;
+    src: local('Libre Caslon Text'), url('https://fonts.cdnfonts.com/s/15804/LibreCaslonText-Italic.woff') format('woff');
+}
+@font-face {
+    font-family: 'Libre Caslon Text';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Libre Caslon Text'), url('https://fonts.cdnfonts.com/s/15804/LibreCaslonText-Bold.woff') format('woff');
+}
+
+
+
+
+
+
+.widget .header h1,.widget .header h3 {
+    margin: 3px 0 3px 3px;
+    font-size: .875rem;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 5px;
+    display:none !important;
+}
+.widget .header {
+    display: none !important;
+    padding: 5px;
+    background-color: #4a90e2;
+    border-bottom: 1px solid #000;
+    width: 100%;
+    -webkit-transform: translate3d(0,0,0);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000
+}
+
+#quiz-v2 p.description.ng-binding.ng-scope {
+    display:none !important;
+}
+
+#quiz-v2 hr {    
+    display:none !important;
+}
+
+
+
+#quiz-v2 .error:before {
+content:'!';
+border-radius: 50%;
+    font-size: 20px;
+    height: 20px;
+    width:20px;
+    border: 2px solid red;
+    text-align: center;
+    color: #F5CCCC;
+    background-color: red;
+    display: inline-block;
+   margin:5px;
+   
+  }
+
+#quiz-v2 .error {
+    color: #a20114;
+    font-size: .6875rem;
+    font-weight: 700;
+    margin: 5px 0;
+    background-color: #F5CCCC !important;
+}
+
+
+.widget .header {
+    display: block;
+    padding: 5px;
+    background-color: #4a90e2;
+    border-bottom: 1px solid #000;
+    width: 100%;
+    -webkit-transform: translate3d(0,0,0);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    display:none;
+}
+
+
+#quiz-v2 .answer-options input[type="checkbox"]:checked + label::after {
+   content: '';
+   display:flex;
+   align-items:center;
+   position: absolute;
+   width: 0.9em;
+   height: 0.3em;
+   background: rgba(0, 0, 0, 0);
+   top: 40%;
+   left: 9px;
+     border: 3px solid #154537;
+   border-top: none;
+   border-right: none;
+   -webkit-transform: rotate(-45deg);
+   -moz-transform: rotate(-45deg);
+   -o-transform: rotate(-45deg);
+   -ms-transform: rotate(-45deg);
+   transform: rotate(-45deg);
+}
+
+#quiz-v2 .answer-options input[type="checkbox"] {
+   line-height: 2.1ex;
+}
+
+
+#quiz-v2 .answer-options input[type="checkbox"] {
+    position: absolute;
+    left: -999em;
+}
+
+#quiz-v2 .answer-options input[type="checkbox"] + label {
+    position: relative;
+    /* overflow: hidden; */
+    cursor: pointer;
+}
+
+#quiz-v2 .answer-options input[type="checkbox"] + label::before {
+   content: "";
+   display: inline-flex;
+    text-align: center;
+   vertical-align: -25%;
+   height: 1.5em;
+   width: 1.5em;
+    background-color: #fff;
+   border: 1px solid rgb(166, 166, 166);
+   border-radius: 0px;   
+   margin-right: 0.5em;
+}
+
+#quiz-v2 .question-container .image-wrapper {
+    /* display: inline-flex; */
+     display: inline-block;
+    vertical-align: middle;
+    margin: 0 10px 0 5px;
+    height: 150px;
+    width: 150px;
+}
+
+
+#quiz-v2 .points-header .points {
+    font-weight: 700;
+    display:none;
+}
+
+#quiz-v2 .progress__filled {
+    background: #154734;
+    border-radius: 999px;
+    height: 100%;
+    min-width: 8px;
+    transition: width .15s ease-out;
+}
+
+#quiz-v2 .answer-options input[type="radio"]:checked + label::after {
+   content: '';
+   position: absolute;
+   width: 6px;
+   height: 6px;
+   background: rgba(0, 0, 0, 0);
+   top: 1.1ex;
+   left: 1.9ex;
+   background-color: #154537;
+   border-radius:50%;
+   display:flex;
+   align-items:center;
+  
+}
+
+#quiz-v2 .answer-options input[type="radio"] {
+   line-height: 2.1ex;
+}
+
+
+#quiz-v2 .answer-options input[type="radio"] {
+    position: absolute;
+    left: -999em;
+}
+
+#quiz-v2 .answer-options input[type="radio"] + label {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+#quiz-v2 .answer-options input[type="radio"] + label::before {
+   content: "";
+   display: inline-flex;
+    text-align: center;
+   vertical-align: -25%;
+   height: 1.5em;
+   width: 1.5em;
+   background-color: #fff;
+   border: 1px solid rgb(166, 166, 166);
+   border-radius: 50%;
+     margin-right: 0.5em;
+}
+
+
+#quiz-v2 .progress {
+    background: #efefef;
+    border-radius: 999px;
+    height: 8px;
+    margin: 0 20px;
+    display: none !important;
+}
+#quiz-v2 .buttons {
+    align-items: center;
+    display: flex;
+    margin-top: 30px;
+    float: right !important;
+}
+
+
+.widget .header {
+    display: block;
+    padding: 5px;
+    background-color: #4a90e2;
+    border-bottom: 1px solid #000;
+    width: 100%;
+    -webkit-transform: translate3d(0,0,0);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    display: none !important;
+}
+
+
+
+.widget .header h1, .widget .header h3 {
+    margin: 3px 0 3px 3px;
+    font-size: .875rem;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 5px;
+    display: none !important;
+}
+
+.widget .container {
+    padding: 0px 10px 10px 10px !important;
+}
+
+
+#quiz-v2 .buttons__left, #quiz-v2 .buttons__right {
+    display: flex;
+    margin: 0 0 0 8px;
+    border-color: #154537;
+    border: 2px solid #154537;
+    background: white;
+    /* color: #154537; */
+}
+
+
+.btn:disabled, a.btn:disabled {
+    opacity: 1;
+    cursor: default;
+}
+
+
+
+#quiz-v2 .answer-options input[type="checkbox"] + label {
+    position: relative;
+    /* overflow: hidden; */
+    cursor: pointer;
+	font-family: var(--font-sans);
+	 font-weight: 500 !important;
+}
+
+
+#quiz-v2 .question-container .directions {
+    font-weight: 400;
+    font-size: .8125rem;
+	font-family: var(--font-sans);
+}
+
+#quiz-v2 .question-container .question-text {
+    font-size: 13px;
+    font-weight: 700;
+	font-family: var(--font-sans);
+}
+
+
+
+
+
+
+@media only screen and (max-width: 767px) {
+                #poll-v2 .submit-container button {
+    display: inline-block;
+    width: 100%;
+    background-color: #154734;
+    color: rgb(255, 255, 255);
+    border-color: #154734;
+}
+            }
+
+
+
+#quiz-v2 .buttons__left button , #quiz-v2 .buttons__right button
+{
+
+   background-color:red !important;
+   color:white !important;
+  
+}
+
+#quiz-v2 .buttons__left button , #quiz-v2 .buttons__right button
+{
+
+   background-color:#fff !important;
+   color:#154537 !important;
+   width:100px;
+   border:0px !important; 
+   
+  
+}
+
+
+#quiz-v2 .buttons__left button:hover , #quiz-v2 .buttons__right button:hover
+{
+
+background-color:#154537 !important;
+color:#fff !important;
+width:100px;
+border:0px !important;
+}
+
