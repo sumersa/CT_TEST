@@ -211,6 +211,11 @@
     cursor: pointer;
 	 font-family: var(--font-sans);
 	 font-weight: 500 !important;
+	width: auto !important;
+    height: 30px !important;
+    line-height: 26px !important;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
 /* border: 1px solid #154537;*/
 }
 
@@ -310,27 +315,6 @@ justify-content:center !important;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #poll-v2 .submit-container .points {
     display:none !important;
    }
@@ -339,3 +323,7 @@ justify-content:center !important;
 display:flex !important;
 justify-content:center !important;
 }
+
+
+
+
