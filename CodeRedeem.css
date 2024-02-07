@@ -1143,7 +1143,9 @@ border-radius: 50%;
     position: fixed;
     top: 0;
     left: 0;
-    z-index: 1000
+    z-index: 1000;
+    padding: 0px !important; 
+    border-bottom: none;
 }
    
 #code-redemption-v2 label {
