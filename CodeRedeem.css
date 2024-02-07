@@ -1102,3 +1102,26 @@ border-radius: 50%;
     margin: 5px 0;
     background-color: #F5CCCC !important;
 }
+
+.widget .header h1,.widget .header h3 {
+    margin: 3px 0 3px 3px;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 5px;
+    font-family: var(--font-headline-VPS-headline-L-value-fontFamily);
+     font-family: var(--font-headline-VPL-headline-M-value-fontFamily);
+    font-weight: var(--font-headline-VPL-headline-M-value-fontWeight);
+    line-height: var(--font-headline-VPL-headline-M-value-lineHeight);
+    text-transform: var(--font-headline-VPL-headline-M-value-textCase);
+    font-size: 20px;
+    letter-spacing: 0.09em;
+    color: var(--color-token-global-surface-2-inverted-value);
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+
+
+
+   
