@@ -1209,6 +1209,8 @@ border-radius: 50%;
 display: inline-block !important;
     width: 100% !important;
   }
+
+/*
 .form dd input[type=text] {
     border-radius: 2px;
     /* background:#f7f7f7; */
@@ -1232,5 +1234,5 @@ display: inline-block !important;
     font-size: var(--font-headline-VPS-headline-M-value-fontSize) !important;
     line-height: var(--font-headline-VPS-headline-M-value-lineHeight) !important;
 
-}
+}*/
 
