@@ -1152,6 +1152,31 @@ border-radius: 50%;
   position: relative;
 }
 
+
+#code-redemption-v2 label:after
+{
+ color:#fff;
+    
+} 
+
+#code-redemption-v2 label:before {
+  content: 'Enter your unique code';
+  text-align:center;
+  width:100%;
+  position: absolute;
+  left: 10px;
+  top: 35px;
+  color: #154;
+  z-index:1;
+  text-transform:uppercase;
+}
+
+
+
+
+
+
+/*
 #code-redemption-v2 label:after {
   content: 'Enter your unique code';
     text-align:center;
@@ -1163,7 +1188,7 @@ border-radius: 50%;
   color: ;
   z-index:1;
   text-transform:uppercase;
-}
+}*/
 
 #dynamic-form-field-code {
   position: relative;
