@@ -1148,55 +1148,7 @@ border-radius: 50%;
     border-bottom: none;
 }
    
-#code-redemption-v2 label {
-  position: relative;
-}
 
-
-#code-redemption-v2 label:after
-{
- color:#fff;
-    
-} 
-
-#code-redemption-v2 label:before {
-  content: 'Enter your unique code';
-  text-align:center;
-  width:100%;
-  position: absolute;
-  left: 10px;
-  top: 35px;
-  color: #154;
-  z-index:1;
-  text-transform:uppercase;
-}
-
-
-
-
-
-
-/*
-#code-redemption-v2 label:after {
-  content: 'Enter your unique code';
-    text-align:center;
-    width:100%;
-  position: absolute;
-  left: 10px;
-  top: 45px;
-  color: var(--color-token-global-surface-2-inverted-value);
-  color: ;
-  z-index:1;
-  text-transform:uppercase;
-}*/
-
-#dynamic-form-field-code {
-  position: relative;
-}
-
-#dynamic-form-field-code:focus {
-  z-index: 10;
-}
 
 #dynamic-form .submit-container {
     float: right;
@@ -1210,7 +1162,7 @@ display: inline-block !important;
     width: 100% !important;
   }
 
-/*
+
 .form dd input[type=text] {
     border-radius: 2px;
     /* background:#f7f7f7; */
@@ -1234,5 +1186,5 @@ display: inline-block !important;
     font-size: var(--font-headline-VPS-headline-M-value-fontSize) !important;
     line-height: var(--font-headline-VPS-headline-M-value-lineHeight) !important;
 
-}*/
+}
 
