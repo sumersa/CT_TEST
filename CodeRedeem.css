@@ -1135,4 +1135,15 @@ border-radius: 50%;
     margin-bottom: 24px;
 }
 
+
+.widget .header {
+    display: block;
+     background-color: #4a90e2;
+     width: 100%;
+    -webkit-transform: translate3d(0,0,0);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000
+}
    
