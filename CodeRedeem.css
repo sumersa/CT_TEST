@@ -1123,6 +1123,16 @@ border-radius: 50%;
        }
 
 
-
+#code-redemption-v2 p.description.ng-binding {
+     color: var(--color-token-font-copy-1-default-value);
+    font-family: var(--font-global-S-1-default-value-fontFamily);
+    font-weight: var(--font-global-S-1-default-value-fontWeight);
+    font-size: var(--font-global-S-1-default-value-fontSize);
+    line-height: var(--font-global-S-1-default-value-lineHeight);
+    text-transform: var(--font-global-S-1-default-value-textCase);
+    letter-spacing: var(--font-global-S-1-default-value-letterSpacing);
+    text-align: center;
+    margin-bottom: 24px;
+}
 
    
