@@ -1028,6 +1028,29 @@
     --shadows-token-card-card-shadow-hover-value-y: 4;
     --shadows-token-card-card-shadow-hover-value-blur: 8;
     --shadows-token-card-card-shadow-hover-value-spread: 0;
+     --color-shade-100: #fff;
+    --color-shade-200: #f8f8f8;
+    --color-shade-500: #c6c6c6;
+    --color-shade-800: #333;
+    --color-shade-900: #000;
+    --color-green-700: #014a2b;
+    --color-red-700: #880d27;
+    --font-sans: 'atten new', sans-serif;
+    --font-serif: 'Libre Caslon Text', serif;
+    --text-supporting: .875rem;
+    --text-paragraph: 1rem;
+    --height-header: 3.75rem;
+    --space-a: .3125rem;
+    --space-b: .625rem;
+    --space-c: 1.25rem;
+    --space-d: 1.875rem;
+    --radius-circle: 50%;
+    --radius-pill: 9999px;
+    --radius-tapbox: 2px;
+    --size-icon: 2.5rem;
+    --tile-overlay-hover: rgba(255, 255, 255, .07);
+    --tile-overlay-active: rgba(0, 0, 0, .15);
+    --timing-hues: .15s;
 }
 
 
