@@ -1109,8 +1109,7 @@ border-radius: 50%;
     text-transform: uppercase;
     color: #fff;
     padding: 5px;
-    font-family: var(--font-headline-VPS-headline-L-value-fontFamily);
-     font-family: var(--font-headline-VPL-headline-M-value-fontFamily);
+   font-family: var(--font-headline-VPL-headline-M-value-fontFamily);
     font-weight: var(--font-headline-VPL-headline-M-value-fontWeight);
     line-height: var(--font-headline-VPL-headline-M-value-lineHeight);
     text-transform: var(--font-headline-VPL-headline-M-value-textCase);
@@ -1119,7 +1118,9 @@ border-radius: 50%;
     color: var(--color-token-global-surface-2-inverted-value);
     margin-bottom: 24px;
     text-align: center;
-}
+
+
+       }
 
 
 
