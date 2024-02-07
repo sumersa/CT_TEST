@@ -1158,7 +1158,7 @@ border-radius: 50%;
     width:100%;
   position: absolute;
   left: 10px;
-  top: 30px;
+  top: 45px;
   color: var(--color-token-global-surface-2-inverted-value);
   color: ;
   z-index:1;
@@ -1185,5 +1185,31 @@ display: inline-block !important;
     width: 100% !important;
   }
 
-
+.form dd input[type=text] {
+    border-radius: 2px;
+    /* background:#f7f7f7; */
+    border: 2px solid #6e6767;
+    font-size: .875rem;
+    margin-right: 5px;
+    margin-top: 5px;
+    padding: 7px;
+    width: 100%;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid var(--color-token-form-border-border-default-value);
+    border-radius: 0;
+    background: transparent;
+    box-shadow: none;
+    outline: none;
+    text-align: center;
+    margin-bottom: 21px;
+    min-height: 56px;
+    color: var(--color-token-global-surface-2-inverted-value);
+    text-transform: uppercase;
+    letter-spacing: 0.01em;
+    font-family: var(--font-headline-VPS-headline-M-value-fontFamily) !important;
+    font-weight: var(--font-headline-VPS-headline-M-value-fontWeight) !important;
+    font-size: var(--font-headline-VPS-headline-M-value-fontSize) !important;
+    line-height: var(--font-headline-VPS-headline-M-value-lineHeight) !important;
+}
 
