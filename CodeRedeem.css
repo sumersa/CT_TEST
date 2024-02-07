@@ -1209,19 +1209,15 @@ border-radius: 50%;
 display: inline-block !important;
     width: 100% !important;
   }
-
-/* .form dd input[type=text] {
+.form dd input[type=text] {
     border-radius: 2px;
     /* background:#f7f7f7; */
-    border: 2px solid #6e6767;
     font-size: .875rem;
     margin-right: 5px;
     margin-top: 5px;
-    padding: 7px;
     width: 100%;
     padding: 10px;
     border: 1px solid var(--color-token-form-border-border-default-value);
-    border-radius: 0;
     background: transparent;
     box-shadow: none;
     outline: none;
@@ -1237,4 +1233,4 @@ display: inline-block !important;
     line-height: var(--font-headline-VPS-headline-M-value-lineHeight) !important;
 
 }
-*/
+
