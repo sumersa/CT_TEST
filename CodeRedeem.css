@@ -1188,3 +1188,15 @@ display: inline-block !important;
 
 }
 
+label
+{
+    
+    display: block;
+    font-size: .8125rem;
+    font-weight: 700;
+    font-family: var(--font-headline-VPS-headline-M-value-fontFamily) !important;
+    font-weight: var(--font-headline-VPS-headline-M-value-fontWeight) !important;
+    font-size: var(--font-headline-VPS-headline-M-value-fontSize) !important;
+    line-height: var(--font-headline-VPS-headline-M-value-lineHeight) !important;
+    color: var(--color-token-global-surface-2-inverted-value)!important;
+}
