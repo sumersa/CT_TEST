@@ -316,15 +316,17 @@ border-radius: 50%;
     /* overflow: hidden; */
     cursor: pointer;
 	font-family: var(--font-sans);
-	 font-weight: 500 !important;
+	 font-weight: var(--font-weight7-Quiz) !important;
 	    text-transform: uppercase;
+	margin-bottom: 10px;
 }
 
 
 #quiz-v2 .question-container .directions {
-    font-weight: 400;
+    font-weight: var(--font-weight7-Quiz);
     font-size: .8125rem;
 	font-family: var(--font-sans);
+	margin-bottom: 10px;
 }
 
 #quiz-v2 .question-container .question-text {
@@ -332,6 +334,7 @@ border-radius: 50%;
     font-weight: var(--font-weight8-Quiz);
 	font-family: var(--font-sans);
 	    text-transform: uppercase;
+	margin-bottom: 20px;
 }
 
 
