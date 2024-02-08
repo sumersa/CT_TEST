@@ -21,7 +21,13 @@
     --size-icon: 2.5rem;
     --tile-overlay-hover: rgba(255, 255, 255, .07);
     --tile-overlay-active: rgba(0, 0, 0, .15);
-    --timing-hues: .15s
+    --timing-hues: .15s;
+    --font-weight-Poll:500;
+    --font-weight-Poll:800;
+   --font-size-Poll:14px;
+	--font-size-Poll-Qsn:24px;
+	
+	
 }
 
 @font-face{font-family:atten new;font-style:normal;font-weight:400;src:local('Atten New'),url(https://fonts.cdnfonts.com/s/36923/AttenNewRegular.woff) format('woff')}@font-face{font-family:atten new;font-style:italic;font-weight:400;src:local('Atten New'),url(https://fonts.cdnfonts.com/s/36923/AttenNewRegularItalic.woff) format('woff')}@font-face{font-family:atten new;font-style:normal;font-weight:300;src:local('Atten New'),url(https://fonts.cdnfonts.com/s/36923/AttenNewBook.woff) format('woff')}@font-face{font-family:atten new;font-style:italic;font-weight:300;src:local('Atten New'),url(https://fonts.cdnfonts.com/s/36923/AttenNewBookItalic.woff) format('woff')}@font-face{font-family:atten new;font-style:normal;font-weight:500;src:local('Atten New'),url(https://fonts.cdnfonts.com/s/36923/AttenNewMedium.woff) format('woff')}@font-face{font-family:atten new;font-style:italic;font-weight:500;src:local('Atten New'),url(https://fonts.cdnfonts.com/s/36923/AttenNewMediumItalic.woff) format('woff')}@font-face{font-family:atten new;font-style:normal;font-weight:700;src:local('Atten New'),url(https://fonts.cdnfonts.com/s/36923/AttenNewBold.woff) format('woff')}@font-face{font-family:atten new;font-style:italic;font-weight:700;src:local('Atten New'),url(https://fonts.cdnfonts.com/s/36923/AttenNewBoldItalic.woff) format('woff')}@font-face{font-family:atten new;font-style:normal;font-weight:800;src:local('Atten New'),url(https://fonts.cdnfonts.com/s/36923/AttenNewExtraBold.woff) format('woff')}@font-face{font-family:atten new;font-style:italic;font-weight:800;src:local('Atten New'),url(https://fonts.cdnfonts.com/s/36923/AttenNewExtraBoldItalic.woff) format('woff')}@font-face{font-family:atten round new;font-style:normal;font-weight:400;src:local('Atten Round New'),url(https://fonts.cdnfonts.com/s/36923/AttenRoundNewRegular.woff) format('woff')}@font-face{font-family:atten round new;font-style:italic;font-weight:400;src:local('Atten Round New'),url(https://fonts.cdnfonts.com/s/36923/AttenRoundNewRegularItalic.woff) format('woff')}@font-face{font-family:atten round new;font-style:normal;font-weight:300;src:local('Atten Round New'),url(https://fonts.cdnfonts.com/s/36923/AttenRoundNewBook.woff) format('woff')}@font-face{font-family:atten round new;font-style:italic;font-weight:300;src:local('Atten Round New'),url(https://fonts.cdnfonts.com/s/36923/AttenRoundNewBookItalic.woff) format('woff')}@font-face{font-family:atten round new;font-style:normal;font-weight:500;src:local('Atten Round New'),url(https://fonts.cdnfonts.com/s/36923/AttenRoundNewMedium.woff) format('woff')}@font-face{font-family:atten round new;font-style:italic;font-weight:500;src:local('Atten Round New'),url(https://fonts.cdnfonts.com/s/36923/AttenRoundNewMediumItalic.woff) format('woff')}@font-face{font-family:atten round new;font-style:normal;font-weight:700;src:local('Atten Round New'),url(https://fonts.cdnfonts.com/s/36923/AttenRoundNewBold.woff) format('woff')}@font-face{font-family:atten round new;font-style:italic;font-weight:700;src:local('Atten Round New'),url(https://fonts.cdnfonts.com/s/36923/AttenRoundNewBoldItalic.woff) format('woff')}@font-face{font-family:atten round new;font-style:normal;font-weight:800;src:local('Atten Round New'),url(https://fonts.cdnfonts.com/s/36923/AttenRoundNewExtraBold.woff) format('woff')}@font-face{font-family:atten round new;font-style:italic;font-weight:800;src:local('Atten Round New'),url(https://fonts.cdnfonts.com/s/36923/AttenRoundNewExtraBoldItalic.woff) format('woff')}
@@ -45,6 +51,8 @@
     font-weight: 700;
     src: local('Libre Caslon Text'), url('https://fonts.cdnfonts.com/s/15804/LibreCaslonText-Bold.woff') format('woff');
 }
+
+
 
 
 
