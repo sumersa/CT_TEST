@@ -22,9 +22,9 @@
     --tile-overlay-hover: rgba(255, 255, 255, .07);
     --tile-overlay-active: rgba(0, 0, 0, .15);
     --timing-hues: .15s;
-    --font-weight5-Survey:500;
-    --font-weight8-Survey:800;
-  --font-weight7-Survey:700;	
+    --font-weight5-codeR:500;
+    --font-weight8-codeR:800;
+  --font-weight7-codeR:700;	
    --font-size-Poll:14px;
 	--font-size-Poll-Qsn:24px;
 	
@@ -72,7 +72,7 @@ border-radius: 50%;
   }
 
 .form dd.error {
-    color: black;
+    color: var(----color-shade-900);
     font-size: .6875rem;
     font-weight: 700;
     margin: 5px 0;
@@ -85,13 +85,13 @@ border-radius: 50%;
     text-transform: uppercase;
     color: #fff;
     padding: 5px;
-   font-family: var(--font-headline-VPL-headline-M-value-fontFamily);
-    font-weight: var(--font-headline-VPL-headline-M-value-fontWeight);
-    line-height: var(--font-headline-VPL-headline-M-value-lineHeight);
-    text-transform: var(--font-headline-VPL-headline-M-value-textCase);
+   font-family:var(--font-sans) ;
+    font-weight: var(--font-weight7-codeR);
+    line-height: 20px;
+    text-transform: uppercase;
     font-size: 20px;
     letter-spacing: 0.09em;
-    color: var(--color-token-global-surface-2-inverted-value);
+    color: var(--color-green-700);
     margin-bottom: 24px;
     text-align: center;
 
@@ -99,14 +99,13 @@ border-radius: 50%;
        }
 
 
-#code-redemption-v2 p.description.ng-binding {
-     color: var(--color-token-font-copy-1-default-value);
-    font-family: var(--font-global-S-1-default-value-fontFamily);
-    font-weight: var(--font-global-S-1-default-value-fontWeight);
-    font-size: var(--font-global-S-1-default-value-fontSize);
-    line-height: var(--font-global-S-1-default-value-lineHeight);
-    text-transform: var(--font-global-S-1-default-value-textCase);
-    letter-spacing: var(--font-global-S-1-default-value-letterSpacing);
+#code-redemption-v2 p.description {
+     color: var(--color-shade-900);
+    font-family: var(--font-sans);
+    font-weight: var(--font-weight7-codeR);
+    font-size: var(--font-size-Poll-Qsn);
+    line-height: 20px;
+    text-transform: uppercase;
     text-align: center;
     margin-bottom: 24px;
 }
@@ -156,10 +155,10 @@ display: inline-block !important;
     color: var(--color-token-global-surface-2-inverted-value);
     text-transform: uppercase;
     letter-spacing: 0.01em;
-    font-family: var(--font-headline-VPS-headline-M-value-fontFamily) !important;
-    font-weight: var(--font-headline-VPS-headline-M-value-fontWeight) !important;
-    font-size: var(--font-headline-VPS-headline-M-value-fontSize) !important;
-    line-height: var(--font-headline-VPS-headline-M-value-lineHeight) !important;
+    font-family: var(--font-sans) !important;
+    font-weight: var(--font-size-Poll-Qsn) !important;
+    font-size: var(--font-size-Poll-Qsn) !important;
+    line-height: var() !important;
 
 }
 
