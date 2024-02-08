@@ -323,3 +323,12 @@ border-radius: 50%;
 
 
 
+#survey-v3 .question-number
+{
+font-size:var(--font-size-Poll-Qsn);
+	
+}
+	
+
+
+
