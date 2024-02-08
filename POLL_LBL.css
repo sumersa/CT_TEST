@@ -194,7 +194,7 @@
 }
 
 #poll-v2 .question-container .question-text {
-   	  font-size: var(--font-size-Poll) !important;
+   	  font-size: var(--font-size-Poll-Qsn) !important;
        font-weight: var( --font-weight-Poll) !important;
     margin-top: 10px;
     font-family: var(--font-sans); 
@@ -216,6 +216,7 @@
     line-height: 26px !important;
     padding-left: 10px !important;
     padding-right: 10px !important;
+   text-transform: uppercase;
 /* border: 1px solid #154537;*/
 }
 
@@ -257,6 +258,7 @@ justify-content:center !important;
     font-weight: var(----font-weight-Poll);
     border: 1px solid var(--color-green-700);
 	margin-bottom: 20px;
+	text-transform: uppercase;
 }
 
 #poll-v2 .question-type-radio label.answer-option-wrapper input[type="radio"] + span::before {
@@ -280,6 +282,7 @@ justify-content:center !important;
     font-family: var(--font-sans);
     font-weight: 500 !important;
     color: var(--color-shade-100) !important;
+   
 }
 
 
