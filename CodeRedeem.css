@@ -1,4 +1,4 @@
-:root {
+	:root {
     --color-shade-100: #fff;
     --color-shade-200: #f8f8f8;
     --color-shade-500: #c6c6c6;
@@ -25,8 +25,8 @@
     --font-weight5-codeR:500;
     --font-weight8-codeR:800;
   --font-weight7-codeR:700;	
-   --font-size-Poll:14px;
-	--font-size-Poll-Qsn:24px;
+   --font-size-survey:14px;
+	--font-size-survey-Qsn:24px;
 	
 	
 }
@@ -103,7 +103,7 @@ border-radius: 50%;
      color: var(--color-shade-900);
     font-family: var(--font-sans);
     font-weight: var(--font-weight7-codeR);
-    font-size: var(--font-size-Poll-Qsn);
+    font-size: var(--font-size-survey-Qsn);
     line-height: 20px;
     text-transform: uppercase;
     text-align: center;
@@ -156,8 +156,8 @@ display: inline-block !important;
     text-transform: uppercase;
     letter-spacing: 0.01em;
     font-family: var(--font-sans) !important;
-    font-weight: var(--font-size-Poll-Qsn) !important;
-    font-size: var(--font-size-Poll-Qsn) !important;
+    font-weight: var(--font-size-survey-Qsn) !important;
+    font-size: var(--font-size-survey-Qsn) !important;
     line-height: var() !important;
 
 }
