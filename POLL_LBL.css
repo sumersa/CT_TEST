@@ -1204,13 +1204,7 @@
 }
 
 
-#poll-v2 .question-container .question-text {
-    font-size: 13px;
-    font-weight: 700;
-    margin-top: 10px;
-   font-family: var(--font-sans);
-   
-}
+
 
 /* Fonts */
 
@@ -1236,6 +1230,8 @@
        font-weight: 800 !important;
     margin-top: 10px;
   font-family: var(--font-sans);
+margin-bottom: 20px;
+    text-transform: uppercase;
 }
 
 
@@ -1291,6 +1287,7 @@ justify-content:center !important;
     font-family: var(--font-sans);
     font-weight: 500 !important;
     border: 1px solid #154537;
+	margin-bottom: 20px;
 }
 
 #poll-v2 .question-type-radio label.answer-option-wrapper input[type="radio"] + span::before {
