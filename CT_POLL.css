@@ -1236,11 +1236,19 @@
 
 
 #poll-v2 .question-container .question-text {
-      font-size: 13px !important;
+   /*   font-size: 13px !important;
        font-weight: 800 !important;
     margin-top: 10px;
   font-family: var(--font-sans) !important;
-text-transform: uppercase;
+text-transform: uppercase; */
+	 margin-top: 10px;
+	color: var(--font-palette-black-100-value);
+       font-family: var(--font-headline-VPL-headline-M-value-fontFamily);
+    font-weight: var(--font-headline-VPL-headline-M-value-fontWeight);
+    font-size: var(--font-headline-VPL-headline-M-value-fontSize);
+    line-height: var(--font-headline-VPL-headline-M-value-lineHeight);
+    text-transform: var(--font-headline-VPL-headline-M-value-textCase);
+    letter-spacing: var(--font-headline-VPL-headline-M-value-letterSpacing);
    
 }
 
