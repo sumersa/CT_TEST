@@ -1226,7 +1226,7 @@
 }
 
 #poll-v2 .question-container .question-text {
-    font-size: 13px;
+    font-size: 24px;
        font-weight: 800 !important;
     margin-top: 10px;
   font-family: var(--font-sans);
