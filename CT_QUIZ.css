@@ -22,8 +22,9 @@
     --tile-overlay-hover: rgba(255, 255, 255, .07);
     --tile-overlay-active: rgba(0, 0, 0, .15);
     --timing-hues: .15s;
-    --font-weight-Poll:500;
-    --font-weight-Poll:800;
+    --font-weight5-Quiz:500;
+    --font-weight8-Quiz:800;
+  --font-weight7-Quiz:700;	
    --font-size-Poll:14px;
 	--font-size-Poll-Qsn:24px;
 	
@@ -107,7 +108,7 @@ border-radius: 50%;
   }
 
 #quiz-v2 .error {
-    color: #000;
+    color: var(--color-shade-900);
     font-size: .6875rem;
     font-weight: 700;
     margin: 5px 0;
@@ -140,7 +141,7 @@ border-radius: 50%;
    background: rgba(0, 0, 0, 0);
    top: 35%;
    left: 9px;
-     border: 3px solid #154537;
+     border: 3px solid var(--color-green-700);
    border-top: none;
    border-right: none;
    -webkit-transform: rotate(-45deg);
@@ -195,7 +196,7 @@ border-radius: 50%;
 }
 
 #quiz-v2 .progress__filled {
-    background: #154734;
+    background: var(--color-green-700);
     border-radius: 999px;
     height: 100%;
     min-width: 8px;
@@ -210,7 +211,7 @@ border-radius: 50%;
    background: rgba(0, 0, 0, 0);
    top: 1.1ex;
    left: 1.9ex;
-   background-color: #154537;
+   background-color: var(--color-green-700);
    border-radius:50%;
    display:flex;
    align-items:center;
@@ -327,8 +328,8 @@ border-radius: 50%;
 }
 
 #quiz-v2 .question-container .question-text {
-    font-size: 13px;
-    font-weight: 700;
+    font-size: var(--font-size-Poll-Qsn);
+    font-weight: var(--font-weight8-Quiz);
 	font-family: var(--font-sans);
 	    text-transform: uppercase;
 }
