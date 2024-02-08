@@ -21,7 +21,14 @@
     --size-icon: 2.5rem;
     --tile-overlay-hover: rgba(255, 255, 255, .07);
     --tile-overlay-active: rgba(0, 0, 0, .15);
-    --timing-hues: .15s
+    --timing-hues: .15s;
+    --font-weight5-Survey:500;
+    --font-weight8-Survey:800;
+  --font-weight7-Survey:700;	
+   --font-size-Poll:14px;
+	--font-size-Poll-Qsn:24px;
+	
+	
 }
 
 @font-face{font-family:atten new;font-style:normal;font-weight:400;src:local('Atten New'),url(https://fonts.cdnfonts.com/s/36923/AttenNewRegular.woff) format('woff')}@font-face{font-family:atten new;font-style:italic;font-weight:400;src:local('Atten New'),url(https://fonts.cdnfonts.com/s/36923/AttenNewRegularItalic.woff) format('woff')}@font-face{font-family:atten new;font-style:normal;font-weight:300;src:local('Atten New'),url(https://fonts.cdnfonts.com/s/36923/AttenNewBook.woff) format('woff')}@font-face{font-family:atten new;font-style:italic;font-weight:300;src:local('Atten New'),url(https://fonts.cdnfonts.com/s/36923/AttenNewBookItalic.woff) format('woff')}@font-face{font-family:atten new;font-style:normal;font-weight:500;src:local('Atten New'),url(https://fonts.cdnfonts.com/s/36923/AttenNewMedium.woff) format('woff')}@font-face{font-family:atten new;font-style:italic;font-weight:500;src:local('Atten New'),url(https://fonts.cdnfonts.com/s/36923/AttenNewMediumItalic.woff) format('woff')}@font-face{font-family:atten new;font-style:normal;font-weight:700;src:local('Atten New'),url(https://fonts.cdnfonts.com/s/36923/AttenNewBold.woff) format('woff')}@font-face{font-family:atten new;font-style:italic;font-weight:700;src:local('Atten New'),url(https://fonts.cdnfonts.com/s/36923/AttenNewBoldItalic.woff) format('woff')}@font-face{font-family:atten new;font-style:normal;font-weight:800;src:local('Atten New'),url(https://fonts.cdnfonts.com/s/36923/AttenNewExtraBold.woff) format('woff')}@font-face{font-family:atten new;font-style:italic;font-weight:800;src:local('Atten New'),url(https://fonts.cdnfonts.com/s/36923/AttenNewExtraBoldItalic.woff) format('woff')}@font-face{font-family:atten round new;font-style:normal;font-weight:400;src:local('Atten Round New'),url(https://fonts.cdnfonts.com/s/36923/AttenRoundNewRegular.woff) format('woff')}@font-face{font-family:atten round new;font-style:italic;font-weight:400;src:local('Atten Round New'),url(https://fonts.cdnfonts.com/s/36923/AttenRoundNewRegularItalic.woff) format('woff')}@font-face{font-family:atten round new;font-style:normal;font-weight:300;src:local('Atten Round New'),url(https://fonts.cdnfonts.com/s/36923/AttenRoundNewBook.woff) format('woff')}@font-face{font-family:atten round new;font-style:italic;font-weight:300;src:local('Atten Round New'),url(https://fonts.cdnfonts.com/s/36923/AttenRoundNewBookItalic.woff) format('woff')}@font-face{font-family:atten round new;font-style:normal;font-weight:500;src:local('Atten Round New'),url(https://fonts.cdnfonts.com/s/36923/AttenRoundNewMedium.woff) format('woff')}@font-face{font-family:atten round new;font-style:italic;font-weight:500;src:local('Atten Round New'),url(https://fonts.cdnfonts.com/s/36923/AttenRoundNewMediumItalic.woff) format('woff')}@font-face{font-family:atten round new;font-style:normal;font-weight:700;src:local('Atten Round New'),url(https://fonts.cdnfonts.com/s/36923/AttenRoundNewBold.woff) format('woff')}@font-face{font-family:atten round new;font-style:italic;font-weight:700;src:local('Atten Round New'),url(https://fonts.cdnfonts.com/s/36923/AttenRoundNewBoldItalic.woff) format('woff')}@font-face{font-family:atten round new;font-style:normal;font-weight:800;src:local('Atten Round New'),url(https://fonts.cdnfonts.com/s/36923/AttenRoundNewExtraBold.woff) format('woff')}@font-face{font-family:atten round new;font-style:italic;font-weight:800;src:local('Atten Round New'),url(https://fonts.cdnfonts.com/s/36923/AttenRoundNewExtraBoldItalic.woff) format('woff')}
@@ -45,6 +52,9 @@
     font-weight: 700;
     src: local('Libre Caslon Text'), url('https://fonts.cdnfonts.com/s/15804/LibreCaslonText-Bold.woff') format('woff');
 }
+
+
+
 
 
 
@@ -100,7 +110,7 @@
    background: rgba(0, 0, 0, 0);
    top: 0.5ex;
    left: 1.0ex;
-   background-color:#154537;
+   background-color:var(--color-green-700);
    border-radius:50%;
    display:flex;
    align-items:center;
@@ -130,7 +140,7 @@
    vertical-align: -25%;
    height: 1.5em;
    width: 1.5em;
-  background-color: #fff;
+  background-color: var(--color-shade-100);
    border: 1px solid rgb(166, 166, 166);
    border-radius: 50%;
      margin-right: 0.5em;
@@ -148,7 +158,7 @@
    background: rgba(0, 0, 0, 0);
    top: 29%;
    left: 5px;
-   border: 2px solid #154537;
+   border: 2px solid var(--color-green-700);
    border-top: none;
    border-right: none;
    -webkit-transform: rotate(-45deg);
@@ -181,7 +191,7 @@
    vertical-align: -25%;
    height: 1.5em;
    width: 1.5em;
-background-color: white;;
+background-color: var(--color-shade-100);;
    border: 1px solid rgb(166, 166, 166);
    border-radius: 0px;   
    margin-right: 0.5em;
@@ -203,7 +213,7 @@ border-radius: 50%;
   }
 
 #survey-v3 .error {
-    color: #a20114;
+    color: var(--color-shade-900);
     font-size: .6875rem;
     font-weight: 700;
     margin: 5px 0;
@@ -279,21 +289,25 @@ border-radius: 50%;
 }
 
 #survey-v3 .question-container .question-text {
-    font-size: 13px;
-    font-weight: 700;
-    margin-top: 30px;
-	font-family: var(--font-sans);
+    font-size: var(--font-size-Poll-Qsn);
+    font-weight: var(--font-weight7-Survey);
+   	font-family: var(--font-sans);
+	line-height: 30px;
+	margin-bottom: 10px
 }
 
 
 #survey-v3 .question-container .directions {
-    font-weight: 400;
+    font-weight: var(--font-weight7-Survey);
 	font-family: var(--font-sans);
 }
 
 #survey-v3 .answer-options .answer-option-text {
-    vertical-align: middle;
+ 
 	font-family: var(--font-sans);
+	    font-weight: var(--font-weight7-Survey);
+    margin-left: 10px;
+    text-transform: uppercase;
 }
 
 
@@ -301,9 +315,9 @@ border-radius: 50%;
                 #poll-v2 .submit-container button {
     display: inline-block;
     width: 100%;
-    background-color: #154734;
+    background-color: var(--color-green-700);
     color: rgb(255, 255, 255);
-    border-color: #154734;
+    border-color: var(--color-green-700);
 }
             }
 
