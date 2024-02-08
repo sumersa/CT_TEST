@@ -146,7 +146,7 @@
    width: 6px;
    height: 6px;
    background: rgba(0, 0, 0, 0);
-   top: 0.5ex;
+   top: 0.9ex;
    left: 1.1ex;
    background-color:var(--color-green-700);
    border-radius:50%;
@@ -223,7 +223,7 @@ text-transform: uppercase;
     margin-bottom: 10px;
    font-family: var(--font-sans);
     font-weight: var(--font-weight-Poll) !important;
-    font-size: var(--font-size-Poll);
+    font-size: var(--font-size-Poll-Qsn);
     display:none !important;
 }
 
