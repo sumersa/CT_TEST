@@ -25,6 +25,7 @@
     --font-weight-Poll:500;
     --font-weight-Poll:800;
    --font-size-Poll:14px;
+	--font-size-Poll-Qsn:24px;
 	
 	
 }
@@ -79,17 +80,7 @@
 }
 
 .widget .header {
-    display: block;
-    padding: 5px;
-    background-color: #4a90e2;
-    border-bottom: 1px solid #000;
-    width: 100%;
-    -webkit-transform: translate3d(0,0,0);
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 1000;
-    display:none;
+      display:none;
 }
 
 #poll-v2 .submit-container button {
@@ -123,7 +114,7 @@
     display: block;
     padding: 5px;
     background-color: var(--color-green-700);
-    border-bottom: 1px solid #000;
+    border-bottom: 1px solid var(--color-shade-900);
     width: 100%;
     -webkit-transform: translate3d(0,0,0);
     position: fixed;
@@ -188,7 +179,7 @@
    vertical-align: -25%;
    height: 1.5em;
    width: 1.5em;
-    background-color: #fff;
+    background-color: var(--color-shade-100);
    border: 1px solid rgb(166, 166, 166);
    border-radius: 50%;
   /* box-shadow: inset 0 2px 5px rgba(0,0,0,0.25);*/
@@ -206,19 +197,13 @@
 
 
 #poll-v2 .question-container .question-text {
-   /*   font-size: 13px !important;
-       font-weight: 800 !important;
+   
+	 margin-top: 10px;
+	  font-size: var(--font-size-Poll) !important;
+       font-weight: var( --font-weight-Poll) !important;
     margin-top: 10px;
   font-family: var(--font-sans) !important;
-text-transform: uppercase; */
-	 margin-top: 10px;
-	color: var(--font-palette-black-100-value);
-       font-family: var(--font-headline-VPL-headline-M-value-fontFamily);
-    font-weight: var(--font-headline-VPL-headline-M-value-fontWeight);
-    font-size: var(--font-headline-VPL-headline-M-value-fontSize);
-    line-height: var(--font-headline-VPL-headline-M-value-lineHeight);
-    text-transform: var(--font-headline-VPL-headline-M-value-textCase);
-    letter-spacing: var(--font-headline-VPL-headline-M-value-letterSpacing);
+text-transform: uppercase; 
 	margin-bottom: 20px !important;
    
 }
