@@ -25,8 +25,8 @@
     --font-weight5-Survey:500;
     --font-weight8-Survey:800;
   --font-weight7-Survey:700;	
-   --font-size-Poll:14px;
-	--font-size-Poll-Qsn:24px;
+   --font-size-Survey:14px;
+	--font-size-Survey-Qsn:24px;
 	
 	
 }
@@ -289,7 +289,7 @@ border-radius: 50%;
 }
 
 #survey-v3 .question-container .question-text {
-    font-size: var(--font-size-Poll-Qsn);
+    font-size: var(--font-size-Survey-Qsn);
     font-weight: var(--font-weight7-Survey);
    	font-family: var(--font-sans);
 	line-height: 30px;
@@ -325,7 +325,7 @@ border-radius: 50%;
 
 #survey-v3 .question-number
 {
-font-size:var(--font-size-Poll-Qsn);
+font-size:var(--font-size-Survey-Qsn);
 	
 }
 	
