@@ -54,10 +54,7 @@
 }
 
 
-
-
-
-
+/* display none*/
 
 
 .widget .header h1,.widget .header h3 {
@@ -83,7 +80,6 @@
 }
 
 
-
 .widget .header {
     display: block;
     padding: 5px;
@@ -97,10 +93,6 @@
     z-index: 1000;
     display:none;
 }
-
-
-
-
 
 #survey-v3 .answer-options input[type="radio"]:checked + span::after {
    content: '';
@@ -312,7 +304,7 @@ border-radius: 50%;
 
 
 @media only screen and (max-width: 767px) {
-                #poll-v2 .submit-container button {
+                #survey-v3 .submit-container button {
     display: inline-block;
     width: 100%;
     background-color: var(--color-green-700);
@@ -329,6 +321,10 @@ font-size:var(--font-size-Survey-Qsn);
 	
 }
 	
-
+#survey-v3 li.answer-option[ng-if="includeOtherOption"] {
+    position: relative;
+    margin-top: -10px !important;
+    margin-left: 10px !important;
+}
 
 
