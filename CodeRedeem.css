@@ -1,4 +1,5 @@
-	:root {
+
+:root {
     --color-shade-100: #fff;
     --color-shade-200: #f8f8f8;
     --color-shade-500: #c6c6c6;
@@ -21,16 +22,8 @@
     --size-icon: 2.5rem;
     --tile-overlay-hover: rgba(255, 255, 255, .07);
     --tile-overlay-active: rgba(0, 0, 0, .15);
-    --timing-hues: .15s;
-    --font-weight5-codeR:500;
-    --font-weight8-codeR:800;
-  --font-weight7-codeR:700;	
-   --font-size-survey:14px;
-	--font-size-survey-Qsn:24px;
-	
-	
+    --timing-hues: .15s
 }
-
 @font-face{font-family:atten new;font-style:normal;font-weight:400;src:local('Atten New'),url(https://fonts.cdnfonts.com/s/36923/AttenNewRegular.woff) format('woff')}@font-face{font-family:atten new;font-style:italic;font-weight:400;src:local('Atten New'),url(https://fonts.cdnfonts.com/s/36923/AttenNewRegularItalic.woff) format('woff')}@font-face{font-family:atten new;font-style:normal;font-weight:300;src:local('Atten New'),url(https://fonts.cdnfonts.com/s/36923/AttenNewBook.woff) format('woff')}@font-face{font-family:atten new;font-style:italic;font-weight:300;src:local('Atten New'),url(https://fonts.cdnfonts.com/s/36923/AttenNewBookItalic.woff) format('woff')}@font-face{font-family:atten new;font-style:normal;font-weight:500;src:local('Atten New'),url(https://fonts.cdnfonts.com/s/36923/AttenNewMedium.woff) format('woff')}@font-face{font-family:atten new;font-style:italic;font-weight:500;src:local('Atten New'),url(https://fonts.cdnfonts.com/s/36923/AttenNewMediumItalic.woff) format('woff')}@font-face{font-family:atten new;font-style:normal;font-weight:700;src:local('Atten New'),url(https://fonts.cdnfonts.com/s/36923/AttenNewBold.woff) format('woff')}@font-face{font-family:atten new;font-style:italic;font-weight:700;src:local('Atten New'),url(https://fonts.cdnfonts.com/s/36923/AttenNewBoldItalic.woff) format('woff')}@font-face{font-family:atten new;font-style:normal;font-weight:800;src:local('Atten New'),url(https://fonts.cdnfonts.com/s/36923/AttenNewExtraBold.woff) format('woff')}@font-face{font-family:atten new;font-style:italic;font-weight:800;src:local('Atten New'),url(https://fonts.cdnfonts.com/s/36923/AttenNewExtraBoldItalic.woff) format('woff')}@font-face{font-family:atten round new;font-style:normal;font-weight:400;src:local('Atten Round New'),url(https://fonts.cdnfonts.com/s/36923/AttenRoundNewRegular.woff) format('woff')}@font-face{font-family:atten round new;font-style:italic;font-weight:400;src:local('Atten Round New'),url(https://fonts.cdnfonts.com/s/36923/AttenRoundNewRegularItalic.woff) format('woff')}@font-face{font-family:atten round new;font-style:normal;font-weight:300;src:local('Atten Round New'),url(https://fonts.cdnfonts.com/s/36923/AttenRoundNewBook.woff) format('woff')}@font-face{font-family:atten round new;font-style:italic;font-weight:300;src:local('Atten Round New'),url(https://fonts.cdnfonts.com/s/36923/AttenRoundNewBookItalic.woff) format('woff')}@font-face{font-family:atten round new;font-style:normal;font-weight:500;src:local('Atten Round New'),url(https://fonts.cdnfonts.com/s/36923/AttenRoundNewMedium.woff) format('woff')}@font-face{font-family:atten round new;font-style:italic;font-weight:500;src:local('Atten Round New'),url(https://fonts.cdnfonts.com/s/36923/AttenRoundNewMediumItalic.woff) format('woff')}@font-face{font-family:atten round new;font-style:normal;font-weight:700;src:local('Atten Round New'),url(https://fonts.cdnfonts.com/s/36923/AttenRoundNewBold.woff) format('woff')}@font-face{font-family:atten round new;font-style:italic;font-weight:700;src:local('Atten Round New'),url(https://fonts.cdnfonts.com/s/36923/AttenRoundNewBoldItalic.woff) format('woff')}@font-face{font-family:atten round new;font-style:normal;font-weight:800;src:local('Atten Round New'),url(https://fonts.cdnfonts.com/s/36923/AttenRoundNewExtraBold.woff) format('woff')}@font-face{font-family:atten round new;font-style:italic;font-weight:800;src:local('Atten Round New'),url(https://fonts.cdnfonts.com/s/36923/AttenRoundNewExtraBoldItalic.woff) format('woff')}
 
 
@@ -68,46 +61,46 @@ border-radius: 50%;
     background-color: red;
     display: inline-block;
    margin:5px;
-   
+
   }
 
 .form dd.error {
-    color: var(----color-shade-900);
+    color: black;
     font-size: .6875rem;
     font-weight: 700;
     margin: 5px 0;
     background-color: #F5CCCC !important;
 }
-
+.widget .container {
+  padding: 60px 70px 60px 70px !important;
+  background: url(https://dev-apps.sites-beamsuntory.com/dtc-pwa-studio-laph/480/url-modal-bg-wNq.jpg) no-repeat right top #fff;
+  background-size: auto 100%;
+}
 .widget .header h1,.widget .header h3 {
-    margin: 3px 0 3px 3px;
+    margin: 0;
+    font-size: 1.5rem;
+    font-family: var(--font-sans);
+    font-weight: 800;
     line-height: 15px;
     text-transform: uppercase;
-    color: #fff;
-    padding: 5px;
-   font-family:var(--font-sans) ;
-    font-weight: var(--font-weight7-codeR);
-    line-height: 20px;
-    text-transform: uppercase;
-    font-size: 20px;
     letter-spacing: 0.09em;
-    color: var(--color-green-700);
-    margin-bottom: 24px;
+    color: #154734 !important;
+    padding: 24px 0 0 0;
+    display: block;
     text-align: center;
-
-
-       }
+}
 
 
 #code-redemption-v2 p.description {
-     color: var(--color-shade-900);
-    font-family: var(--font-sans);
-    font-weight: var(--font-weight7-codeR);
-    font-size: var(--font-size-survey-Qsn);
-    line-height: 20px;
-    text-transform: uppercase;
+     color: #4e4b48;
+     font-family: var(--font-serif);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    text-transform: none;
+    letter-spacing: 0.01em;
     text-align: center;
-    margin-bottom: 24px;
+    margin-bottom: 16px;
 }
 
    .widget .header {
@@ -119,10 +112,10 @@ border-radius: 50%;
     top: 0;
     left: 0;
     z-index: 1000;
-    padding: 0px !important; 
+    padding: 0px !important;
     border-bottom: none;
 }
-   
+
 
 
 #dynamic-form .submit-container {
@@ -133,44 +126,57 @@ border-radius: 50%;
 
 #dynamic-form .submit-container button
 {
-display: inline-block !important;
-    width: 100% !important;
+  display: inline-block !important;
+  width: 100% !important;
+  font-family: var(--font-sans);
+  font-weight: 800;
+  font-size: 14px;
+  min-height: 50px;
   }
 
 
 .form dd input[type=text] {
-    border-radius: 2px;
-    /* background:#f7f7f7; */
-    font-size: .875rem;
-    margin-right: 5px;
-    margin-top: 5px;
     width: 100%;
+    min-height: 56px;
     padding: 10px;
-    border: 1px solid var(--color-token-form-border-border-default-value);
+    border: 1px solid #cfcfcf;
     background: transparent;
     box-shadow: none;
     outline: none;
     text-align: center;
-    margin-bottom: 10px;
-    color: var(--color-token-global-surface-2-inverted-value);
+    margin-bottom: 20px;
+    color: #154734;
     text-transform: uppercase;
     letter-spacing: 0.01em;
-    font-family: var(--font-sans) !important;
-    font-weight: var(--font-size-survey-Qsn) !important;
-    font-size: var(--font-size-survey-Qsn) !important;
-    line-height: var() !important;
+    font-family: font-family: var(--font-sans);;
+    font-weight: 800;
+    font-size: 1.2rem;
+    line-height: 110%;
 
 }
 
-label
+#dynamic-form label
 {
-    
+
     display: block;
     font-size: .8125rem;
     font-weight: 700;
-    font-family: var(--font-headline-VPS-headline-M-value-fontFamily) !important;
-    font-weight: var(--font-headline-VPS-headline-M-value-fontWeight) !important;
-    font-size: var(--font-headline-VPS-headline-M-value-fontSize) !important;
-    line-height: var(--font-headline-VPS-headline-M-value-lineHeight) !important;
-    color: var(--color-token-global-surface-2-inverted-value)!important;
+    font-family: var(--font-sans);
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 110%;
+    color: #000;
+}
+
+
+
+@media (max-width: 480px) 
+{  .widget .container {
+  padding: 60px 32px 60px 32px !important;
+  background: url(
+https://dev-apps.sites-beamsuntory.com/dtc-pwa-studio-laph/480/url-modal-bg-wNq.jpg)
+no-repeat right top #fff;
+  background-size: Auto 80%;
+background-position:center
+}
 }
