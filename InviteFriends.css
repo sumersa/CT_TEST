@@ -187,25 +187,27 @@
     src: local("Libre Caslon Text"), url("https://fonts.cdnfonts.com/s/15804/LibreCaslonText-Bold.woff") format("woff");
 }
 
-.widget .container {
-    
-    padding: 44px 5px 10px 24px;
+p {
+    /* margin: 0 0 9px; */
+    font-size: 16px;
     font-family: var(--font-serif);
-    font-size: 16px !important;
-    line-height: 140%;
     font-weight: 400;
-    color: rgb(78, 75, 72);}
+    line-height: 140%;
 }
-#heading-text
-{
+
+.widget .header h1 {
+    padding: 3px 10px 3px 30px !important;
     font-size: 1.5rem;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: #000 !important;
+    padding: 10px;
     font-family: var(--font-sans);
     font-weight: 800;
-    line-height: 15px;
-    text-transform: uppercase;  
-    color: #000 !important;
-    padding:0px 10px 10px 10px;
-    
+}
+
+.widget .container {
+     padding: 45px 44px 20px 40px !important;
 }
 
 
