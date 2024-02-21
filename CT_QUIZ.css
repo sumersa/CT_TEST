@@ -219,7 +219,7 @@
     text-transform: uppercase;
     border-bottom: 1px solid rgb(21, 71, 52);
     padding: 0px 0px 16px !important;
-    color: rgb(0, 0, 0) !important;
+    color: var(--color-green-700) !important;
 }
 
 #quiz-v2 .error::before {
@@ -385,6 +385,7 @@
     font-family: var(--font-sans);
     text-transform: uppercase;
     font-weight: 500 !important;
+    color: var(--color-green-700) !important;
 }
 
 #quiz-v2 .question-container .directions {
@@ -400,6 +401,7 @@
     text-transform: uppercase;
     color: rgb(0, 0, 0);
     margin-bottom: 16px;
+    color: var(--color-green-700) !important;
 }
 
 #quiz-v2 .question-type-checkbox .answer-option-wrapper, #quiz-v2 .question-type-radio .answer-option-wrapper {
