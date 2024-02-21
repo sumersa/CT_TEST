@@ -6,6 +6,7 @@
     --color-shade-900: #000;
     --color-green-700: #014a2b;
     --color-red-700: #880d27;
+    --color-grey-500:#4e4b48;
     --font-sans: 'atten new', sans-serif;
     --font-serif: 'Libre Caslon Text', serif;
     --text-supporting: .875rem;
@@ -23,180 +24,181 @@
     --tile-overlay-active: rgba(0, 0, 0, .15);
     --timing-hues: .15s;
 }
-
 @font-face {
     font-family: "atten new";
     font-style: normal;
     font-weight: 400;
-    src: local("Atten New"), url("https://fonts.cdnfonts.com/s/36923/AttenNewRegular.woff") format("woff");
+    src: local("Atten New"), url("https://fonts.cdnfonts.com/s/36923/AttenNewRegular.woff")
+format("woff");
 }
-
 @font-face {
     font-family: "atten new";
     font-style: italic;
     font-weight: 400;
-    src: local("Atten New"), url("https://fonts.cdnfonts.com/s/36923/AttenNewRegularItalic.woff") format("woff");
+    src: local("Atten New"), url("https://fonts.cdnfonts.com/s/36923/AttenNewRegularItalic.woff")
+format("woff");
 }
-
 @font-face {
     font-family: "atten new";
     font-style: normal;
     font-weight: 300;
-    src: local("Atten New"), url("https://fonts.cdnfonts.com/s/36923/AttenNewBook.woff") format("woff");
+    src: local("Atten New"), url("https://fonts.cdnfonts.com/s/36923/AttenNewBook.woff")
+format("woff");
 }
-
 @font-face {
     font-family: "atten new";
     font-style: italic;
     font-weight: 300;
-    src: local("Atten New"), url("https://fonts.cdnfonts.com/s/36923/AttenNewBookItalic.woff") format("woff");
+    src: local("Atten New"), url("https://fonts.cdnfonts.com/s/36923/AttenNewBookItalic.woff")
+format("woff");
 }
-
 @font-face {
     font-family: "atten new";
     font-style: normal;
     font-weight: 500;
-    src: local("Atten New"), url("https://fonts.cdnfonts.com/s/36923/AttenNewMedium.woff") format("woff");
+    src: local("Atten New"), url("https://fonts.cdnfonts.com/s/36923/AttenNewMedium.woff")
+format("woff");
 }
-
 @font-face {
     font-family: "atten new";
     font-style: italic;
     font-weight: 500;
-    src: local("Atten New"), url("https://fonts.cdnfonts.com/s/36923/AttenNewMediumItalic.woff") format("woff");
+    src: local("Atten New"), url("https://fonts.cdnfonts.com/s/36923/AttenNewMediumItalic.woff")
+format("woff");
 }
-
 @font-face {
     font-family: "atten new";
     font-style: normal;
     font-weight: 700;
-    src: local("Atten New"), url("https://fonts.cdnfonts.com/s/36923/AttenNewBold.woff") format("woff");
+    src: local("Atten New"), url("https://fonts.cdnfonts.com/s/36923/AttenNewBold.woff")
+format("woff");
 }
-
 @font-face {
     font-family: "atten new";
     font-style: italic;
     font-weight: 700;
-    src: local("Atten New"), url("https://fonts.cdnfonts.com/s/36923/AttenNewBoldItalic.woff") format("woff");
+    src: local("Atten New"), url("https://fonts.cdnfonts.com/s/36923/AttenNewBoldItalic.woff")
+format("woff");
 }
-
 @font-face {
     font-family: "atten new";
     font-style: normal;
     font-weight: 800;
-    src: local("Atten New"), url("https://fonts.cdnfonts.com/s/36923/AttenNewExtraBold.woff") format("woff");
+    src: local("Atten New"), url("https://fonts.cdnfonts.com/s/36923/AttenNewExtraBold.woff")
+format("woff");
 }
-
 @font-face {
     font-family: "atten new";
     font-style: italic;
     font-weight: 800;
-    src: local("Atten New"), url("https://fonts.cdnfonts.com/s/36923/AttenNewExtraBoldItalic.woff") format("woff");
+    src: local("Atten New"), url("https://fonts.cdnfonts.com/s/36923/AttenNewExtraBoldItalic.woff")
+format("woff");
 }
-
 @font-face {
     font-family: "atten round new";
     font-style: normal;
     font-weight: 400;
-    src: local("Atten Round New"), url("https://fonts.cdnfonts.com/s/36923/AttenRoundNewRegular.woff") format("woff");
+    src: local("Atten Round New"), url("https://fonts.cdnfonts.com/s/36923/AttenRoundNewRegular.woff")
+format("woff");
 }
-
 @font-face {
     font-family: "atten round new";
     font-style: italic;
     font-weight: 400;
-    src: local("Atten Round New"), url("https://fonts.cdnfonts.com/s/36923/AttenRoundNewRegularItalic.woff") format("woff");
+    src: local("Atten Round New"), url("https://fonts.cdnfonts.com/s/36923/AttenRoundNewRegularItalic.woff")
+format("woff");
 }
-
 @font-face {
     font-family: "atten round new";
     font-style: normal;
     font-weight: 300;
-    src: local("Atten Round New"), url("https://fonts.cdnfonts.com/s/36923/AttenRoundNewBook.woff") format("woff");
+    src: local("Atten Round New"), url("https://fonts.cdnfonts.com/s/36923/AttenRoundNewBook.woff")
+format("woff");
 }
-
 @font-face {
     font-family: "atten round new";
     font-style: italic;
     font-weight: 300;
-    src: local("Atten Round New"), url("https://fonts.cdnfonts.com/s/36923/AttenRoundNewBookItalic.woff") format("woff");
+    src: local("Atten Round New"), url("https://fonts.cdnfonts.com/s/36923/AttenRoundNewBookItalic.woff")
+format("woff");
 }
-
 @font-face {
     font-family: "atten round new";
     font-style: normal;
     font-weight: 500;
-    src: local("Atten Round New"), url("https://fonts.cdnfonts.com/s/36923/AttenRoundNewMedium.woff") format("woff");
+    src: local("Atten Round New"), url("https://fonts.cdnfonts.com/s/36923/AttenRoundNewMedium.woff")
+format("woff");
 }
-
 @font-face {
     font-family: "atten round new";
     font-style: italic;
     font-weight: 500;
-    src: local("Atten Round New"), url("https://fonts.cdnfonts.com/s/36923/AttenRoundNewMediumItalic.woff") format("woff");
+    src: local("Atten Round New"), url("https://fonts.cdnfonts.com/s/36923/AttenRoundNewMediumItalic.woff")
+format("woff");
 }
-
 @font-face {
     font-family: "atten round new";
     font-style: normal;
     font-weight: 700;
-    src: local("Atten Round New"), url("https://fonts.cdnfonts.com/s/36923/AttenRoundNewBold.woff") format("woff");
+    src: local("Atten Round New"), url("https://fonts.cdnfonts.com/s/36923/AttenRoundNewBold.woff")
+format("woff");
 }
-
 @font-face {
     font-family: "atten round new";
     font-style: italic;
     font-weight: 700;
-    src: local("Atten Round New"), url("https://fonts.cdnfonts.com/s/36923/AttenRoundNewBoldItalic.woff") format("woff");
+    src: local("Atten Round New"), url("https://fonts.cdnfonts.com/s/36923/AttenRoundNewBoldItalic.woff")
+format("woff");
 }
-
 @font-face {
     font-family: "atten round new";
     font-style: normal;
     font-weight: 800;
-    src: local("Atten Round New"), url("https://fonts.cdnfonts.com/s/36923/AttenRoundNewExtraBold.woff") format("woff");
+    src: local("Atten Round New"), url("https://fonts.cdnfonts.com/s/36923/AttenRoundNewExtraBold.woff")
+format("woff");
 }
-
 @font-face {
     font-family: "atten round new";
     font-style: italic;
     font-weight: 800;
-    src: local("Atten Round New"), url("https://fonts.cdnfonts.com/s/36923/AttenRoundNewExtraBoldItalic.woff") format("woff");
+    src: local("Atten Round New"), url("https://fonts.cdnfonts.com/s/36923/AttenRoundNewExtraBoldItalic.woff")
+format("woff");
 }
-
 @font-face {
     font-family: "Libre Caslon Text";
     font-style: normal;
     font-weight: 400;
-    src: local("Libre Caslon Text"), url("https://fonts.cdnfonts.com/s/15804/LibreCaslonText-Regular.woff") format("woff");
+    src: local("Libre Caslon Text"), url("https://fonts.cdnfonts.com/s/15804/LibreCaslonText-Regular.woff")
+format("woff");
 }
-
 @font-face {
     font-family: "Libre Caslon Text";
     font-style: italic;
     font-weight: 400;
-    src: local("Libre Caslon Text"), url("https://fonts.cdnfonts.com/s/15804/LibreCaslonText-Italic.woff") format("woff");
+    src: local("Libre Caslon Text"), url("https://fonts.cdnfonts.com/s/15804/LibreCaslonText-Italic.woff")
+format("woff");
 }
-
 @font-face {
     font-family: "Libre Caslon Text";
     font-style: normal;
     font-weight: 700;
-    src: local("Libre Caslon Text"), url("https://fonts.cdnfonts.com/s/15804/LibreCaslonText-Bold.woff") format("woff");
+    src: local("Libre Caslon Text"), url("https://fonts.cdnfonts.com/s/15804/LibreCaslonText-Bold.woff")
+format("woff");
 }
-
 #quiz-v2 p.description.ng-binding.ng-scope {
     display: none !important;
 }
-
 #quiz-v2 hr {
     display: none !important;
 }
-
 .widget .container {
-    padding: 24px;
+  padding: 24px 24px 24px 24px !important;
+  background: url(
+https://dev-apps.sites-beamsuntory.com/dtc-pwa-studio-laph/480/url-modal-bg-wNq.jpg)
+no-repeat right top #fff;
+  background-size: auto 100%;
+    background-position:center
 }
-
 .widget .header {
     padding: 24px 34px 0px 34px;
     margin: 0px;
@@ -209,7 +211,6 @@
     z-index: 1000;
     display: block !important;
 }
-
 .widget .header h1, .widget .header h3 {
     margin: 0px;
     font-size: 1.5rem;
@@ -221,7 +222,6 @@
     padding: 0px 0px 16px !important;
     color: var(--color-green-700) !important;
 }
-
 #quiz-v2 .error::before {
     content: "!";
     border-radius: 50%;
@@ -235,7 +235,6 @@
     display: inline-block;
     margin: 5px;
 }
-
 #quiz-v2 .error {
     color: rgb(162, 1, 20);
     font-size: 0.6875rem;
@@ -243,12 +242,10 @@
     margin: 5px 0px;
     background-color: rgb(245, 204, 204) !important;
 }
-
 #quiz-v2 .answer-options input[type="checkbox"]:checked + label::before {
     background-color: rgb(21, 69, 55);
     border-color: rgb(21, 69, 55);
 }
-
 #quiz-v2 .answer-options input[type="checkbox"]:checked + label::after {
     content: "";
     display: flex;
@@ -266,21 +263,17 @@
     border-right: none;
     transform: rotate(-45deg);
 }
-
 #quiz-v2 .answer-options input[type="checkbox"] {
     line-height: 2.1ex;
 }
-
 #quiz-v2 .answer-options input[type="checkbox"] {
     position: absolute;
     left: -999em;
 }
-
 #quiz-v2 .answer-options input[type="checkbox"] + label {
     position: relative;
     cursor: pointer;
 }
-
 #quiz-v2 .answer-options input[type="checkbox"] + label::before {
     content: "";
     display: inline-flex;
@@ -293,20 +286,18 @@
     border-radius: 0px;
     margin-right: 10px;
 }
-
 #quiz-v2 .question-container .image-wrapper {
     display: inline-block;
     vertical-align: middle;
     margin: 0px 10px 0px 5px;
     height: 150px;
     width: 150px;
+ 
 }
-
 #quiz-v2 .points-header .points {
     font-weight: 700;
     display: none;
 }
-
 #quiz-v2 .progress__filled {
     background: rgb(21, 71, 52);
     border-radius: 999px;
@@ -314,7 +305,6 @@
     min-width: 8px;
     transition: width 0.15s ease-out 0s;
 }
-
 #quiz-v2 .answer-options input[type="radio"] {
     position: relative;
     width: 20px;
@@ -327,7 +317,6 @@
     outline: none;
     cursor: pointer;
 }
-
 #quiz-v2 .answer-options input[type="radio"]::before {
     content: "";
     position: absolute;
@@ -339,12 +328,10 @@
     border-radius: 50%;
     background-color: rgb(255, 255, 255);
 }
-
 #quiz-v2 .answer-options input[type="radio"]:checked {
     background-color: rgb(21, 71, 52);
     border-color: rgb(21, 71, 52);
 }
-
 #quiz-v2 .answer-options input[type="radio"]:checked::after {
     content: "";
     position: absolute;
@@ -357,43 +344,36 @@
     display: flex;
     align-items: center;
 }
-
 #quiz-v2 .progress {
     background: rgb(239, 239, 239);
     border-radius: 999px;
     height: 8px;
     margin: 0px 20px;
-    
 }
-
-
+ 
 #quiz-v2 .buttons__left, #quiz-v2 .buttons__right {
     display: flex;
     margin: 0px 0px 0px 8px;
   /*  border: 2px solid rgb(21, 69, 55);*/
     background: white;
 }
-
 .btn:disabled, a.btn:disabled {
     opacity: 1;
     cursor: default;
 }
-
 #quiz-v2 .answer-options input[type="checkbox"] + label {
     position: relative;
     cursor: pointer;
     font-family: var(--font-sans);
     text-transform: uppercase;
     font-weight: 500 !important;
-    color: var(--color-green-700) !important;
+    color: var(--color-grey-500) !important;
 }
-
 #quiz-v2 .question-container .directions {
     font-weight: 400;
     font-size: 0.8125rem;
     font-family: var(--font-sans);
 }
-
 #quiz-v2 .question-container .question-text {
     font-size: 1.2rem;
     font-weight: 700;
@@ -401,9 +381,8 @@
     text-transform: uppercase;
     color: rgb(0, 0, 0);
     margin-bottom: 16px;
-    color: var(--color-green-700) !important;
+   
 }
-
 #quiz-v2 .question-type-checkbox .answer-option-wrapper, #quiz-v2 .question-type-radio .answer-option-wrapper {
     margin: 15px 0px;
     color: rgb(78, 75, 72);
@@ -411,13 +390,11 @@
     font-size: 0.8rem;
     display: flex;
     align-items: center;
-    color: var(--color-green-700) !important;
+    color: var(--color-grey-500) !important;
 }
-
 #quiz-v2 .answer-options .answer-option-text {
     padding-left: 0px;
 }
-
 #quiz-v2 .question-container .directions {
     font-weight: 500;
     font-family: var(--font-serif);
@@ -426,7 +403,6 @@
     display: block;
     font-size: 0.8rem;
 }
-
 #quiz-v2 .submit-container button {
     font-family: var(--font-sans);
     font-weight: 800;
@@ -434,38 +410,41 @@
     min-height: 50px;
     min-width: 100px;
 }
-
 #quiz-v2 .questions li:first-child .question-container {
     margin-top: 0px;
 }
-
-@media only screen and (max-width: 767px) {
-    #poll-v2 .submit-container button {
-        display: inline-block;
-        width: 100%;
-        background-color: rgb(21, 71, 52);
-        color: rgb(255, 255, 255);
-        border-color: rgb(21, 71, 52);
-    }
+@media (max-width: 480px)
+{  .widget .container {
+  padding: 24px 24px 24px 24px !important;
+  background: url(
+https://dev-apps.sites-beamsuntory.com/dtc-pwa-studio-laph/480/url-modal-bg-wNq.jpg)
+no-repeat right top #fff;
+  background-size: Auto 80%;
+background-position:center
 }
-
+.widget .header h1, .widget .header h3 {
+    margin: 0px;
+    font-size: 1.3rem;
+    font-family: var(--font-sans);
+    font-weight: 800;
+    line-height: 15px;
+    text-transform: uppercase;
+    border-bottom: 1px solid rgb(21, 71, 52);
+    padding: 0px 0px 16px !important;
+    color: var(--color-green-700) !important;
+}
+}
 #quiz-v2 .buttons__left button, #quiz-v2 .buttons__right button {
-   
     color: white !important;
      width: 100px;
 }
-
-
+ 
 #quiz-v2 .buttons__left button:disabled, #quiz-v2 .buttons__right button:disabled {
-   
     opacity: 0.5;
     cursor: not-allowed;
-    
 }
-
-
+ 
 #quiz-v2 .submit-container button:disabled { opacity: 0.5; cursor: not-allowed; }
-
 #quiz-v2 .defaultHeight {
     min-height: 260px;
     padding: 0px 20px 0px 20px;
