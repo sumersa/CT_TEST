@@ -411,6 +411,7 @@
     font-size: 0.8rem;
     display: flex;
     align-items: center;
+    color: var(--color-green-700) !important;
 }
 
 #quiz-v2 .answer-options .answer-option-text {
