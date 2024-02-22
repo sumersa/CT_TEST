@@ -69,13 +69,13 @@
     line-height: 15px;
     text-transform: uppercase;
     border-bottom: 1px solid #154734;
-     padding: 0px 0 16px 0 !important;
-    color: #000 !important;
+    padding: 0px 0 16px 0 !important;
+    color: var(--color-green-700) !important;
     padding: 0px;
 }
 .widget .container p, .widget .container ul li {
   font-family: 'Libre Caslon Text';
-  font-size: 16px;
+  font-size:  0.813rem;
   line-height: 140%;
   font-weight: 400;
   color: #4e4b48;
@@ -116,4 +116,7 @@
         padding: 20px 24px 0px 24px !important;
     }
  
+}
+div .submit{
+    margin:10px !important;
 }
