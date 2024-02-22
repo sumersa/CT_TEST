@@ -231,7 +231,7 @@
     text-transform: uppercase;
     border-bottom: 1px solid #154734;
      padding: 0px 0 16px 0 !important;
-    color: #000 !important;
+    color: var(--color-green-700) !important;
     padding: 0px;
 }
  
@@ -346,9 +346,15 @@
     background-color: rgb(245, 204, 204) !important;
 }
  
+
 .widget .container {
-    padding: 0px 24px 24px !important;
-}
+    padding: 0px 24px 24px 24px !important;
+    background: url(
+  https://dev-apps.sites-beamsuntory.com/dtc-pwa-studio-laph/480/url-modal-bg-wNq.jpg)
+  no-repeat right top #fff;
+    background-size: auto 100%;
+    background-position:center
+  }
  
 .btn:disabled, a.btn:disabled {
     opacity: 1;
@@ -423,7 +429,7 @@
     margin-left: 10px;
     color: rgb(78, 75, 72);
     font-family: var(--font-serif);
-    font-size: 0.8rem;
+    font-size: 0.813rem;
     font-weight: 400;
 }
  
@@ -458,4 +464,14 @@
     border: none;
     margin: 0;
     padding: 0px 20px 20px 20px;
+}
+
+@media (max-width: 480px) 
+{  .widget .container {
+  padding: 24px 24px 24px 24px !important;
+  background: url(
+https://dev-apps.sites-beamsuntory.com/dtc-pwa-studio-laph/480/url-modal-bg-wNq.jpg)
+no-repeat right top #fff;
+  background-size: Auto 80%;
+background-position:center
 }
