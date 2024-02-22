@@ -46,7 +46,12 @@
     src: local('Libre Caslon Text'), url('https://fonts.cdnfonts.com/s/15804/LibreCaslonText-Bold.woff') format('woff');
 }
 .widget .container {
-  padding: 24px;
+  padding: 24px 24px 24px 24px !important;
+  background: url(
+https://dev-apps.sites-beamsuntory.com/dtc-pwa-studio-laph/480/url-modal-bg-wNq.jpg)
+no-repeat right top #fff;
+  background-size: auto 100%;
+    background-position:center
 }
 .widget .header {
     display: block !important;
@@ -70,7 +75,7 @@
     text-transform: uppercase;
     border-bottom: 1px solid #154734;
      padding: 0px 0 16px 0 !important;
-   color: var(--color-green-700) !important;
+     color: var(--color-green-700) !important;
     padding: 0px;
 }
 
@@ -91,6 +96,7 @@
     background-color: #154734;
     color: rgb(255, 255, 255);
     border-color: #154734;
+    margin-top:20px;
 }
 
 
@@ -199,7 +205,6 @@
     font-weight: 800 !important;
     margin-top: 10px;
   font-family: var(--font-sans);
-color: var(--color-green-700) !important;
 text-transform: uppercase;
 }
 #poll-v2 .success-message {
@@ -221,7 +226,6 @@ text-transform: uppercase;
 	 font-family: var(--font-sans);
 	 font-weight: 500 !important;
 	    text-transform: uppercase;
-	color: var(--color-green-700) !important;
 /* border: 1px solid #154537;*/
 }
 
@@ -245,10 +249,9 @@ justify-content:center !important;
     background-color: #154734;
     color: rgb(255, 255, 255);
     border-color: #154734;
-      margin-top: 20px;
 }
             }
 
 
 
-#survey-v3 .submit-container button:disabled { opacity: 0.5; cursor: not-allowed; }
+#poll-v2.submit-container button:disabled { opacity: 0.5; cursor: not-allowed; }
