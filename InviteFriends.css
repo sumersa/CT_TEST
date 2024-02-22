@@ -9,7 +9,7 @@
     --color-grey-500:#4e4b48;
     --font-sans: 'atten new', sans-serif;
     --font-serif: 'Libre Caslon Text', serif;
-    --font-size:16px;
+    --font-size:0.813rem;
     --text-supporting: .875rem;
     --text-paragraph: 1rem;
     --height-header: 3.75rem;
@@ -190,7 +190,7 @@ p {
     font-size: 1.5rem;
     line-height: 15px;
     text-transform: uppercase;
-    color: #000 !important;
+    color:var(--color-green-700) !important;
     font-family: var(--font-sans);
     font-weight: 800;
     padding: 20px 0 0px 0 !important;
