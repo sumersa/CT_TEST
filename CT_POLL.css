@@ -71,7 +71,7 @@ no-repeat right top #fff;
     font-size: 1.5rem;
     font-family: var(--font-sans);
     font-weight: 800;
-    line-height: 15px;
+    line-height: 130%;
     text-transform: uppercase;
     border-bottom: 1px solid #154734;
      padding: 0px 0 16px 0 !important;
