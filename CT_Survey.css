@@ -177,7 +177,6 @@
     font-weight: 800 !important;
     line-height: 15px !important;
 }
- 
 .widget .header {
     font-size: 1.5rem;
     font-family: var(--font-sans);
@@ -191,7 +190,6 @@
     position: fixed;
     z-index: 1000;
 }
- 
  
 
 #survey-v3 .answer-options input[type="radio"] {
@@ -295,18 +293,16 @@
 }
 
  
-.widget .container {
-    padding: 0px 24px 24px 24px !important;
+.widget .container,body {
+    padding: 0px 10px 24px 10px !important;
     background: url(
 https://dev-apps.sites-beamsuntory.com/dtc-pwa-studio-laph/480/url-modal-bg-wNq.jpg)
   no-repeat right center #fff;
-    background-size: inherit;
-    background-position:top;
-background-repeat:no-repeat;
+    background-size: 55%;
+    background-position:center;
+    background-repeat:no-repeat;
     background-attachment:fixed;
-    
-   
-
+    height: 400px;
   }
 .btn:disabled, a.btn:disabled {
     opacity: 1;
@@ -320,9 +316,11 @@ background-repeat:no-repeat;
 #survey-v3 .description {
     margin: 0px;
     font-family: var(--font-sans);
-    font-size: 14px;
+    font-size: 1.2rem;
     font-weight: 800 !important;
-    display: none !important;
+    /* display: none !important;*/
+    padding: 64px 20px 24px 20px;
+    line-height: 130%;
 }
 #survey-v3 .question-container .question-text {
     font-size: 1.2rem;
@@ -389,7 +387,6 @@ background-repeat:no-repeat;
     background-color: rgb(21, 69, 55);
     border-color: rgb(21, 69, 55);
 }
-
 #survey-v3 .question-type-radio div.answer-option-other-wrapper 
 {
   display: flex;
@@ -400,17 +397,34 @@ background-repeat:no-repeat;
 #survey-v3 fieldset {
     border: none;
     margin: 0;
-    padding: 50px 20px 20px 20px;
+    padding: 0px 20px 20px 20px;
 }
- 
 @media (max-width: 480px) 
-{  .widget .container {
-  padding: 24px 24px 24px 24px !important;
+{  
+    .widget .container,body {
+  padding: 10px 10px 24px 10px !important;
   background: url(
 https://dev-apps.sites-beamsuntory.com/dtc-pwa-studio-laph/480/url-modal-bg-wNq.jpg)
-no-repeat right center #fff;
-  background-size:inherit;
+no-repeat  center center #fff;
+  background-size:100% !important;
 background-position:center;
     background-repeat:no-repeat;
     background-attachment:fixed;
+        background-position:center;
+        height:500px
+}
+    #survey-v3 fieldset {
+    border: none;
+    margin: 0;
+    padding: 0px 10px 10px 10px;
+}
+    #survey-v3 .description {
+    margin: 0px;
+    font-family: var(--font-sans);
+    font-size: 1.2rem;
+    font-weight: 800 !important;
+    /* display: none !important;*/
+    padding: 50px 10px 10px 10px !important;
+    line-height: 130%;
+}
 }
