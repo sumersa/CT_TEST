@@ -186,7 +186,16 @@ format("woff");
 format("woff");
 }
 #quiz-v2 p.description.ng-binding.ng-scope {
-    display: none !important;
+
+line-height:130%;
+
+font-size:1.2rem;
+
+font-weight: 800 !important;
+
+font-family: var(--font-sans);
+
+padding: 0px 14px 24px 14px;
 }
 #quiz-v2 hr {
     display: none !important;
