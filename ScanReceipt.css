@@ -24,8 +24,7 @@
     --timing-hues: .15s
 }
 @font-face{font-family:atten new;font-style:normal;font-weight:400;src:local('Atten New'),url(https://fonts.cdnfonts.com/s/36923/AttenNewRegular.woff) format('woff')}@font-face{font-family:atten new;font-style:italic;font-weight:400;src:local('Atten New'),url(https://fonts.cdnfonts.com/s/36923/AttenNewRegularItalic.woff) format('woff')}@font-face{font-family:atten new;font-style:normal;font-weight:300;src:local('Atten New'),url(https://fonts.cdnfonts.com/s/36923/AttenNewBook.woff) format('woff')}@font-face{font-family:atten new;font-style:italic;font-weight:300;src:local('Atten New'),url(https://fonts.cdnfonts.com/s/36923/AttenNewBookItalic.woff) format('woff')}@font-face{font-family:atten new;font-style:normal;font-weight:500;src:local('Atten New'),url(https://fonts.cdnfonts.com/s/36923/AttenNewMedium.woff) format('woff')}@font-face{font-family:atten new;font-style:italic;font-weight:500;src:local('Atten New'),url(https://fonts.cdnfonts.com/s/36923/AttenNewMediumItalic.woff) format('woff')}@font-face{font-family:atten new;font-style:normal;font-weight:700;src:local('Atten New'),url(https://fonts.cdnfonts.com/s/36923/AttenNewBold.woff) format('woff')}@font-face{font-family:atten new;font-style:italic;font-weight:700;src:local('Atten New'),url(https://fonts.cdnfonts.com/s/36923/AttenNewBoldItalic.woff) format('woff')}@font-face{font-family:atten new;font-style:normal;font-weight:800;src:local('Atten New'),url(https://fonts.cdnfonts.com/s/36923/AttenNewExtraBold.woff) format('woff')}@font-face{font-family:atten new;font-style:italic;font-weight:800;src:local('Atten New'),url(https://fonts.cdnfonts.com/s/36923/AttenNewExtraBoldItalic.woff) format('woff')}@font-face{font-family:atten round new;font-style:normal;font-weight:400;src:local('Atten Round New'),url(https://fonts.cdnfonts.com/s/36923/AttenRoundNewRegular.woff) format('woff')}@font-face{font-family:atten round new;font-style:italic;font-weight:400;src:local('Atten Round New'),url(https://fonts.cdnfonts.com/s/36923/AttenRoundNewRegularItalic.woff) format('woff')}@font-face{font-family:atten round new;font-style:normal;font-weight:300;src:local('Atten Round New'),url(https://fonts.cdnfonts.com/s/36923/AttenRoundNewBook.woff) format('woff')}@font-face{font-family:atten round new;font-style:italic;font-weight:300;src:local('Atten Round New'),url(https://fonts.cdnfonts.com/s/36923/AttenRoundNewBookItalic.woff) format('woff')}@font-face{font-family:atten round new;font-style:normal;font-weight:500;src:local('Atten Round New'),url(https://fonts.cdnfonts.com/s/36923/AttenRoundNewMedium.woff) format('woff')}@font-face{font-family:atten round new;font-style:italic;font-weight:500;src:local('Atten Round New'),url(https://fonts.cdnfonts.com/s/36923/AttenRoundNewMediumItalic.woff) format('woff')}@font-face{font-family:atten round new;font-style:normal;font-weight:700;src:local('Atten Round New'),url(https://fonts.cdnfonts.com/s/36923/AttenRoundNewBold.woff) format('woff')}@font-face{font-family:atten round new;font-style:italic;font-weight:700;src:local('Atten Round New'),url(https://fonts.cdnfonts.com/s/36923/AttenRoundNewBoldItalic.woff) format('woff')}@font-face{font-family:atten round new;font-style:normal;font-weight:800;src:local('Atten Round New'),url(https://fonts.cdnfonts.com/s/36923/AttenRoundNewExtraBold.woff) format('woff')}@font-face{font-family:atten round new;font-style:italic;font-weight:800;src:local('Atten Round New'),url(https://fonts.cdnfonts.com/s/36923/AttenRoundNewExtraBoldItalic.woff) format('woff')}
- 
- 
+
 @font-face {
     font-family: 'Libre Caslon Text';
     font-style: normal;
@@ -44,7 +43,6 @@
     font-weight: 700;
     src: local('Libre Caslon Text'), url('https://fonts.cdnfonts.com/s/15804/LibreCaslonText-Bold.woff') format('woff');
 }
- 
 .widget .container {
   padding: 20px 44px 20px 40px;
 }
@@ -60,7 +58,6 @@
     left: 0;
     z-index: 1000
 }
- 
 .widget .header h1,.widget .header h3 {
     margin: 0;
     font-size: 1.5rem;
@@ -90,8 +87,7 @@
   min-height: 50px;
   min-width: 100px;
 }
- 
- 
+
 #upload-file-label {
     background-color: var(--color-green-700) !important;
     font-family: var(--font-sans) !important;
@@ -105,18 +101,51 @@
     vertical-align:middle !important;
     line-height: 30px;
     }
- 
 #upload-file-label:hover {
      opacity:0.5;
     }
- 
- 
+
 @media (max-width: 480px) {
-    .widget .container {
-        padding: 20px 24px 0px 24px !important;
-    }
- 
 }
-div .submit{
-    margin:10px !important;
+ 
+.widget .container {
+    padding: 24px 24px 24px 24px !important;
+    background: url(
+https://dev-apps.sites-beamsuntory.com/dtc-pwa-studio-laph/480/url-modal-bg-wNq.jpg)
+  no-repeat right top #fff;
+    background-size: 67%;
+    background-position:center;
+height:450px
+  }
+ 
+@media (max-width: 480px) 
+{  .widget .container,body {
+  padding: 30px 10px 24px 10px !important;
+  background: url(
+https://dev-apps.sites-beamsuntory.com/dtc-pwa-studio-laph/480/url-modal-bg-wNq.jpg)
+no-repeat  center center #fff;
+  background-size:100% !important;
+background-position:center;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+        background-position:center;
+        height:500px
+}
+.submit{
+    padding:0px 0 40px 0px !important;
+}
+ 
+.widget .header {
+    font-size: 1.5rem;
+    font-family: var(--font-sans);
+    font-weight: 800;
+        line-height: 15px;
+      text-transform: uppercase;
+    padding: 16px 0 16px 0 !important;
+    margin: 0 !important;
+    width:90%;
+    left: 5%;
+    position: fixed;
+    z-index: 1000;
+}
 }
