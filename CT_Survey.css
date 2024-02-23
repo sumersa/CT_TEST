@@ -297,12 +297,12 @@
     padding: 0px 10px 24px 10px !important;
     background: url(
 https://dev-apps.sites-beamsuntory.com/dtc-pwa-studio-laph/480/url-modal-bg-wNq.jpg)
-  no-repeat right center #fff;
-    background-size: 55%;
+  no-repeat center center #fff;
+    background-size: 74%;
     background-position:center;
     background-repeat:no-repeat;
     background-attachment:fixed;
-    height: 400px;
+    height: 500px;
   }
 .btn:disabled, a.btn:disabled {
     opacity: 1;
