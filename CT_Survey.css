@@ -300,7 +300,7 @@
     background: url(
 https://dev-apps.sites-beamsuntory.com/dtc-pwa-studio-laph/480/url-modal-bg-wNq.jpg)
   no-repeat right top #fff;
-    background-size: auto 100%;
+    background-size: inherit;
     background-position:center;
    height: 400px
   }
@@ -405,6 +405,6 @@ https://dev-apps.sites-beamsuntory.com/dtc-pwa-studio-laph/480/url-modal-bg-wNq.
   background: url(
 https://dev-apps.sites-beamsuntory.com/dtc-pwa-studio-laph/480/url-modal-bg-wNq.jpg)
 no-repeat right top #fff;
-  background-size: Auto 80%;
+  background-size:inherit;
 background-position:center
 }
