@@ -299,10 +299,14 @@
     padding: 0px 24px 24px 24px !important;
     background: url(
 https://dev-apps.sites-beamsuntory.com/dtc-pwa-studio-laph/480/url-modal-bg-wNq.jpg)
-  no-repeat right top #fff;
+  no-repeat right center #fff;
     background-size: inherit;
-    background-position:center;
-   height: 400px
+    background-position:top;
+background-repeat:no-repeat;
+    background-attachment:fixed;
+    
+   
+
   }
 .btn:disabled, a.btn:disabled {
     opacity: 1;
@@ -404,7 +408,9 @@ https://dev-apps.sites-beamsuntory.com/dtc-pwa-studio-laph/480/url-modal-bg-wNq.
   padding: 24px 24px 24px 24px !important;
   background: url(
 https://dev-apps.sites-beamsuntory.com/dtc-pwa-studio-laph/480/url-modal-bg-wNq.jpg)
-no-repeat right top #fff;
+no-repeat right center #fff;
   background-size:inherit;
-background-position:center
+background-position:center;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
 }
