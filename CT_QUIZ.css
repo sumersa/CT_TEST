@@ -186,16 +186,10 @@ format("woff");
 format("woff");
 }
 #quiz-v2 p.description.ng-binding.ng-scope {
-
-line-height:130%;
-
-font-size:1.2rem;
-
-font-weight: 800 !important;
-
-font-family: var(--font-sans);
-
-padding: 0px 14px 24px 14px;
+   /* display: none !important;*/
+   padding-left: 16px;
+   font-size: 1.2rem;
+   padding-bottom: 10px;
 }
 #quiz-v2 hr {
     display: none !important;
@@ -429,7 +423,8 @@ no-repeat right top #fff;
 https://dev-apps.sites-beamsuntory.com/dtc-pwa-studio-laph/480/url-modal-bg-wNq.jpg)
 no-repeat right top #fff;
   background-size: Auto 80%;
-background-position:center
+background-position:center;
+    background-image:none;
 }
 .widget .header h1, .widget .header h3 {
     margin: 0px;
