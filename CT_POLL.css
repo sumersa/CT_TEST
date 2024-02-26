@@ -370,7 +370,19 @@ font-weight: 800;
 }
  
  
+  #poll-v2 .submit-container button {
  
+    display: inline-block;
+ 
+    width: 100%;
+ 
+    background-color: #154734;
+ 
+    color: rgb(255, 255, 255);
+ 
+    border-color: #154734;
+ 
+}
  
 @media only screen and (max-width: 480px) {
  
