@@ -238,12 +238,9 @@ no-repeat right top #fff;
  
 #poll-v2 .question-container .question-text {
  
-    font-size: 13px;
- 
-    font-weight: 700;
- 
-    margin-top: 10px;
- 
+    font-size: 1.2rem; 
+    font-weight: 800; 
+    margin-top: 10px; 
    font-family: var(--font-sans);
  
  
