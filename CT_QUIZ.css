@@ -384,6 +384,7 @@ no-repeat right top #fff;
     text-transform: uppercase;
     color: rgb(0, 0, 0);
     margin-bottom: 16px;
+    line-height: 130%;
    
 }
 #quiz-v2 .question-type-checkbox .answer-option-wrapper, #quiz-v2 .question-type-radio .answer-option-wrapper {
