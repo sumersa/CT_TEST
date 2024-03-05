@@ -429,3 +429,8 @@ background-position:center;
     line-height: 130%;
 }
 }
+
+div[ct-survey-v3]
+{    
+    overflow:auto;
+}
