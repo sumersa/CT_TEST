@@ -1,3 +1,190 @@
+:root {
+    --color-shade-100: #fff;
+    --color-shade-200: #f8f8f8;
+    --color-shade-500: #c6c6c6;
+    --color-shade-800: #333;
+    --color-shade-900: #000;
+    --color-green-700: #014a2b;
+    --color-red-700: #880d27;
+    --color-grey-500:#4e4b48;
+    --font-sans: 'atten new', sans-serif;
+    --font-serif: 'Libre Caslon Text', serif;
+    --text-supporting: .875rem;
+    --text-paragraph: 1rem;
+    --height-header: 3.75rem;
+    --space-a: .3125rem;
+    --space-b: .625rem;
+    --space-c: 1.25rem;
+    --space-d: 1.875rem;
+    --radius-circle: 50%;
+    --radius-pill: 9999px;
+    --radius-tapbox: 2px;
+    --size-icon: 2.5rem;
+    --tile-overlay-hover: rgba(255, 255, 255, .07);
+    --tile-overlay-active: rgba(0, 0, 0, .15);
+    --timing-hues: .15s;
+}
+@font-face {
+    font-family: "atten new";
+    font-style: normal;
+    font-weight: 400;
+    src: local("Atten New"), url("https://fonts.cdnfonts.com/s/36923/AttenNewRegular.woff")
+format("woff");
+}
+@font-face {
+    font-family: "atten new";
+    font-style: italic;
+    font-weight: 400;
+    src: local("Atten New"), url("https://fonts.cdnfonts.com/s/36923/AttenNewRegularItalic.woff")
+format("woff");
+}
+@font-face {
+    font-family: "atten new";
+    font-style: normal;
+    font-weight: 300;
+    src: local("Atten New"), url("https://fonts.cdnfonts.com/s/36923/AttenNewBook.woff")
+format("woff");
+}
+@font-face {
+    font-family: "atten new";
+    font-style: italic;
+    font-weight: 300;
+    src: local("Atten New"), url("https://fonts.cdnfonts.com/s/36923/AttenNewBookItalic.woff")
+format("woff");
+}
+@font-face {
+    font-family: "atten new";
+    font-style: normal;
+    font-weight: 500;
+    src: local("Atten New"), url("https://fonts.cdnfonts.com/s/36923/AttenNewMedium.woff")
+format("woff");
+}
+@font-face {
+    font-family: "atten new";
+    font-style: italic;
+    font-weight: 500;
+    src: local("Atten New"), url("https://fonts.cdnfonts.com/s/36923/AttenNewMediumItalic.woff")
+format("woff");
+}
+@font-face {
+    font-family: "atten new";
+    font-style: normal;
+    font-weight: 700;
+    src: local("Atten New"), url("https://fonts.cdnfonts.com/s/36923/AttenNewBold.woff")
+format("woff");
+}
+@font-face {
+    font-family: "atten new";
+    font-style: italic;
+    font-weight: 700;
+    src: local("Atten New"), url("https://fonts.cdnfonts.com/s/36923/AttenNewBoldItalic.woff")
+format("woff");
+}
+@font-face {
+    font-family: "atten new";
+    font-style: normal;
+    font-weight: 800;
+    src: local("Atten New"), url("https://fonts.cdnfonts.com/s/36923/AttenNewExtraBold.woff")
+format("woff");
+}
+@font-face {
+    font-family: "atten new";
+    font-style: italic;
+    font-weight: 800;
+    src: local("Atten New"), url("https://fonts.cdnfonts.com/s/36923/AttenNewExtraBoldItalic.woff")
+format("woff");
+}
+@font-face {
+    font-family: "atten round new";
+    font-style: normal;
+    font-weight: 400;
+    src: local("Atten Round New"), url("https://fonts.cdnfonts.com/s/36923/AttenRoundNewRegular.woff")
+format("woff");
+}
+@font-face {
+    font-family: "atten round new";
+    font-style: italic;
+    font-weight: 400;
+    src: local("Atten Round New"), url("https://fonts.cdnfonts.com/s/36923/AttenRoundNewRegularItalic.woff")
+format("woff");
+}
+@font-face {
+    font-family: "atten round new";
+    font-style: normal;
+    font-weight: 300;
+    src: local("Atten Round New"), url("https://fonts.cdnfonts.com/s/36923/AttenRoundNewBook.woff")
+format("woff");
+}
+@font-face {
+    font-family: "atten round new";
+    font-style: italic;
+    font-weight: 300;
+    src: local("Atten Round New"), url("https://fonts.cdnfonts.com/s/36923/AttenRoundNewBookItalic.woff")
+format("woff");
+}
+@font-face {
+    font-family: "atten round new";
+    font-style: normal;
+    font-weight: 500;
+    src: local("Atten Round New"), url("https://fonts.cdnfonts.com/s/36923/AttenRoundNewMedium.woff")
+format("woff");
+}
+@font-face {
+    font-family: "atten round new";
+    font-style: italic;
+    font-weight: 500;
+    src: local("Atten Round New"), url("https://fonts.cdnfonts.com/s/36923/AttenRoundNewMediumItalic.woff")
+format("woff");
+}
+@font-face {
+    font-family: "atten round new";
+    font-style: normal;
+    font-weight: 700;
+    src: local("Atten Round New"), url("https://fonts.cdnfonts.com/s/36923/AttenRoundNewBold.woff")
+format("woff");
+}
+@font-face {
+    font-family: "atten round new";
+    font-style: italic;
+    font-weight: 700;
+    src: local("Atten Round New"), url("https://fonts.cdnfonts.com/s/36923/AttenRoundNewBoldItalic.woff")
+format("woff");
+}
+@font-face {
+    font-family: "atten round new";
+    font-style: normal;
+    font-weight: 800;
+    src: local("Atten Round New"), url("https://fonts.cdnfonts.com/s/36923/AttenRoundNewExtraBold.woff")
+format("woff");
+}
+@font-face {
+    font-family: "atten round new";
+    font-style: italic;
+    font-weight: 800;
+    src: local("Atten Round New"), url("https://fonts.cdnfonts.com/s/36923/AttenRoundNewExtraBoldItalic.woff")
+format("woff");
+}
+@font-face {
+    font-family: "Libre Caslon Text";
+    font-style: normal;
+    font-weight: 400;
+    src: local("Libre Caslon Text"), url("https://fonts.cdnfonts.com/s/15804/LibreCaslonText-Regular.woff")
+format("woff");
+}
+@font-face {
+    font-family: "Libre Caslon Text";
+    font-style: italic;
+    font-weight: 400;
+    src: local("Libre Caslon Text"), url("https://fonts.cdnfonts.com/s/15804/LibreCaslonText-Italic.woff")
+format("woff");
+}
+@font-face {
+    font-family: "Libre Caslon Text";
+    font-style: normal;
+    font-weight: 700;
+    src: local("Libre Caslon Text"), url("https://fonts.cdnfonts.com/s/15804/LibreCaslonText-Bold.woff")
+format("woff");
+}
 
 div[ct-redeem-v2]
 {    
