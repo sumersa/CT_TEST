@@ -196,7 +196,7 @@ div[ct-redeem-v2]
     display: flex;
     justify-content: flex-end;
     align-items: center;
-float right;
+   float: right;
 
 }
 
