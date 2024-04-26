@@ -257,7 +257,7 @@ button.btn.ct-button.ng-binding {
 
 #redeem-v2 .additional-images .image-thumb:first-of-type {
     margin-right: -1px;
-    display: none;
+    display: none !important;
 }
 
 
