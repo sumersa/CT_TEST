@@ -239,6 +239,9 @@ button.btn.ct-button.ng-binding {
     color: #fff;
     border-color: rgb(1, 56, 32);
     border-bottom-width: 2px;
+     margin-inline: 10px;
+    width: 102px;
+}
 }
 
 
