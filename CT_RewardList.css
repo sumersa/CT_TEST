@@ -199,25 +199,12 @@ div[ct-redeem-v2]
    float: right;
 
 }
-
-
-
-#redeem-v2 .form {
-    margin-bottom: 10px;
-    display: inline;
-    /* display: flex; */
-    /* flex-wrap: wrap; */
-    /* align-items: unset; */
-}
-
-
-
-#redeem-v2 h2 {
+/*#redeem-v2 h2 {
     font-weight: 700;
     padding-bottom: 10px;
     font-size: .875rem;
 }
-
+*/
 #redeem-v2 #details .description {
     border-top: 2px solid #c8c8c8;
     padding-top: 10px;
@@ -238,3 +225,63 @@ div[ct-redeem-v2]
     /* opacity: 0.5;
 
 }
+
+
+
+
+
+button.btn.ct-button.ng-binding {
+    display: block;
+    float: right;
+}
+
+
+#redeem-v2 .form {
+    margin-bottom: 10px;
+    display: inline;
+    padding-right: 20px;
+}
+
+
+
+
+
+.btn.btn-secondary{
+    background-color: rgb(1, 74, 43);
+    color: #fff;
+    border-color: rgb(1, 56, 32);
+    border-bottom-width: 2px;
+}
+
+
+
+
+
+ .btn.btn-secondary:hover {
+    background-color: rgb(39, 101, 75);
+    color: #fff;
+}
+
+
+
+#redeem-v2 .additional-images .image-thumb:first-of-type {
+    margin-right: -1px;
+    display: none;
+}
+
+
+
+#redeem-v2 h2 {
+    font-weight: 700;
+    padding-bottom: 10px;
+    font-size: 1.5rem;
+    font-family: var(--font-sans);
+}
+
+
+p.description.ng-binding {
+    font-size: 1.2rem;
+    font-family: var(--font-sans);
+line-height: 150%;
+}
+
