@@ -186,11 +186,6 @@ format("woff");
 format("woff");
 }
 
-div[ct-redeem-v2]
-{    
-    overflow:auto;
-    height:500px;
-}
 .dl.form.submit {
     display: flex;
     justify-content: flex-end;
@@ -282,6 +277,14 @@ select#quantity {
 }
 .header.ct-header-color {
     border-bottom: none;
+}
+
+
+@media (max-width: 769px) {
+    body {
+        overflow: auto;
+        height: 510px; /* or whatever height you want */
+    }
 }
 
 
