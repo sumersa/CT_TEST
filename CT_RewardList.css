@@ -278,3 +278,24 @@ button.btn.ct-button.ng-binding {
 line-height: 150%;
 }*/
 
+
+.form.checkbox input[type=checkbox], .form.radio input[type=checkbox] {
+    margin-top: -28px;
+}
+.form.checkbox input[type=checkbox], .form.checkbox input[type=radio], .form.radio input[type=checkbox], .form.radio input[type=radio] {
+    float: left;
+    margin: 0 0 0 20px;
+    vertical-align: middle;
+}
+
+.form.checkbox {
+    margin-top: -35px;
+    padding-left: 20px;
+    vertical-align: middle;
+}
+
+.error.ng-binding.ng-scope {
+    font-size: 12px;
+}
+
+
