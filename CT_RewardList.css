@@ -191,13 +191,11 @@ div[ct-redeem-v2]
     overflow:auto;
     height:500px;
 }
-
 .dl.form.submit {
     display: flex;
     justify-content: flex-end;
     align-items: center;
    float: right;
-
 }
 /*#redeem-v2 h2 {
     font-weight: 700;
@@ -210,30 +208,23 @@ div[ct-redeem-v2]
     padding-top: 10px;
     padding-bottom: 10px;
     border-bottom: 2px solid #c8c8c8;
-    margin-top: 10px;
-    margin-bottom: 10px;
     font-family: sans-serif;
     line-height: 150%;
     font-size: 16px;
 }
-
-
+ 
+p.description.ng-binding {}
 
 button.btn.ct-button.ng-binding {
     display: block;
     float: right;
 }
 
-
-#redeem-v2 .form {
-    margin-bottom: 10px;
-    display: inline;
-    padding-right: 20px;
+ button.btn.ct-button.ng-binding {
+    display: block;
+    float: right;
+    
 }
-
-
-
-
 
 .btn.btn-secondary{
     background-color: rgb(1, 74, 43);
@@ -243,18 +234,12 @@ button.btn.ct-button.ng-binding {
      margin-inline: 10px;
     width: 102px;
 }
-}
 
 
-
-
-
- .btn.btn-secondary:hover {
+.btn.btn-secondary:hover {
     background-color: rgb(39, 101, 75);
     color: #fff;
 }
-
-
 
 #redeem-v2 .additional-images .image-thumb:first-of-type {
     margin-right: -1px;
@@ -262,40 +247,41 @@ button.btn.ct-button.ng-binding {
 }
 
 
-
 #redeem-v2 h2 {
     font-weight: 700;
-  /*  padding-bottom: 10px;*/
     font-size: 1.5rem;
     font-family: var(--font-sans);
-    margin-top: -10px;
+ 
 }
 
-
-/*p.description.ng-binding {
-    font-size: 1.2rem;
-    font-family: var(--font-sans);
-line-height: 150%;
-}*/
-
-
-.form.checkbox input[type=checkbox], .form.radio input[type=checkbox] {
-    margin-top: -28px;
+ 
+ 
+#redeem-v2 .container {
+    padding-top:35px !important;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 05px !important;
 }
-.form.checkbox input[type=checkbox], .form.checkbox input[type=radio], .form.radio input[type=checkbox], .form.radio input[type=radio] {
-    float: left;
-    margin: 0 0 0 20px;
-    vertical-align: middle;
+ 
+label {
+    display: inline; 
+    font-size: .8125rem;
+    font-weight: 700
+    padding-right:10px !important;
 }
+ 
+select#quantity {
+    margin-left: 10px;
+}
+ 
 
-.form.checkbox {
-    margin-top: -35px;
+.form.checkbox, .form.radio {
+    margin-top: 10px;
     padding-left: 20px;
     vertical-align: middle;
 }
-
-.error.ng-binding.ng-scope {
-    font-size: 12px;
+.header.ct-header-color {
+    border-bottom: none;
 }
 
 
