@@ -280,7 +280,7 @@ select#quantity {
 }
 
 
-@media (max-width: 769px) {
+@media (max-width: 768px) {
     body {
         overflow: auto;
         height: 510px; /* or whatever height you want */
