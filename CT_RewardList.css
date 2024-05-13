@@ -203,9 +203,10 @@ format("woff");
     padding-top: 10px;
     padding-bottom: 10px;
     border-bottom: 2px solid #c8c8c8;
-    font-family: var(--font-sans);
+    /* font-family: var(--font-sans); */
     line-height: 150%;
     font-size: 16px;
+    font-family: 'Libre Caslon Text';
 }
  
 p.description.ng-binding {}
@@ -244,9 +245,10 @@ button.btn.ct-button.ng-binding {
 
 #redeem-v2 h2 {
     font-weight: 700;
-    font-size: 1.5rem;
+    font-size: 16px;
     font-family: var(--font-sans);
- 
+    margin-top: 35px;
+    text-transform: uppercase;
 }
 
  
@@ -256,6 +258,11 @@ button.btn.ct-button.ng-binding {
     padding-left: 20px;
     padding-right: 20px;
     padding-bottom: 05px !important;
+ background: url(https://dev-apps.sites-beamsuntory.com/dtc-pwa-studio-laph/480/url-modal-bg-wNq.jpg) no-repeat right top #fff;
+    background-size: 65%;
+    background-position: center;
+    height: 450px;
+    
 }
  
 label {
@@ -287,4 +294,19 @@ select#quantity {
     }
 }
 
-
+.widget .header h1,.widget .header h3 {
+    font-size: 18px;
+    font-family: var(--font-sans);
+    font-weight: 800;
+    line-height: 25px;
+    text-transform: uppercase;
+    border-bottom: 1px solid #154734;
+    padding:
+        10px 0 16px 10px !important;
+    color: var(--color-green-700) !important;
+    padding: 0px;
+    /* white-space: unset; */
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    }
